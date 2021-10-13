@@ -106,6 +106,7 @@
                 {"name":"Zoom out vertically on the Group Timeline view", "mods":["COMMAND", "SHIFT"]}
             ],
             "MORETHAN" : [
+                {"name":"Expand all Group cues", "mods":["SHIFT"]},
                 {"name":"Expand all Group cues", "mods":[]}
             ],
             "N" : [
