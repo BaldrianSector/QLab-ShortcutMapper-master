@@ -431,12 +431,6 @@ nav button.os-linux b {
                 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
-.multiline-stuff {
-  display: flex;
-  flex-direction: column;
-}
-
-
 div#keyboard div.row {
     clear: both;
 }
