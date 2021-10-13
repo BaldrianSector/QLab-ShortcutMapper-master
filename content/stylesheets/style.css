@@ -444,12 +444,13 @@ nav button.os-linux b {
   margin-left: -100%;
 }
 
-.visible {
-  visibility: visible;
-}
-
 .hidden {
   visibility: hidden;
+}
+
+.multiline-stuff {
+  display: flex;
+  flex-direction: column;
 }
 
 
