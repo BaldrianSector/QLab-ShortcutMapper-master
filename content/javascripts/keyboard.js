@@ -36,7 +36,8 @@
 
                     var context = keyboard.options.keydata[contextName];
                     var contextSafeName = keyboard._getSafeID(contextName);
-                    var keyItems = [...(context[keyName] || []), ...(context[altKeyName] || [])];
+                    const altKeys = context[altKeyName].filter(({mods}) => mods.contains("SHIFT"));
+                    var keyItems = [...(context[keyName] || []), ...(altKeys || [])];
 
                     if (keyItems.length) {
                         html += "<div class='keyitems' data-context='" + contextSafeName + "'>";
@@ -60,6 +61,7 @@
 
                 // Is key a modifier key?
                 const handleModifier = (kName) => {
+                    $(this).on("mouseover", e => console.log(e.target))
                     if ($.inArray(kName, keyboard.options.mods) >= 0) {
                         // This css class gives the mod a colored border
                         $(this).addClass("mod-" + keyboard._getButtonModClass(kName));
