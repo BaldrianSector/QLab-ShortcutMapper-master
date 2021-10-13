@@ -1,0 +1,231 @@
+{
+    "name" : "QLab",
+    "version" : "Custom 4.6.10",
+    "os" : "windows",
+    "mods_used" : ["COMMAND", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Custom Hotkeys" : {
+            "A" : [
+                {"name":"/cue/selected/armed 0", "mods":["CONTROL", "SHIFT"]},
+                {"name":"/cue/selected/armed 1", "mods":["CONTROL"]},
+                {"name":"Toggle ARMING", "mods":[]}
+            ],
+            "AMPERSAND" : [
+                {"name":"Post Wait +5s", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ASTERISK" : [
+                {"name":"LOOP cue ON", "mods":["CONTROL", "SHIFT"]},
+                {"name":"LOOP last slice", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "AT" : [
+                {"name":"Pre Wait +0.1s", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "A_RING" : [
+                {"name":"Bump -10dB", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Bump -2.5dB", "mods":["CONTROL"]}
+            ],
+            "B" : [
+                {"name":"/cue/selected/colorName blue", "mods":["SHIFT"]},
+                {"name":"/dashboard/clear", "mods":["CONTROL"]},
+                {"name":"Ctrl+B: create 5s default +5dB BUILD fade of selected Group, Audio, Mic, Video or Fade Cue as next cue", "mods":["COMMAND"]},
+                {"name":"Ctrl+Option+B: BATCH ADJUST selected", "mods":["COMMAND", "CONTROL"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"/cue/selected/colorName none", "mods":["SHIFT"]}
+            ],
+            "C" : [
+                {"name":"Ctrl+C: switch to Macros Cart", "mods":["CONTROL"]},
+                {"name":"Cycle Cue Continue Mode", "mods":[]}
+            ],
+            "CARET" : [
+                {"name":"Post Wait +0.1s", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "COLON" : [
+                {"name":"Nudge +10s", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "COMMA" : [
+                {"name":"Nudge -5s", "mods":["CONTROL"]}
+            ],
+            "D" : [
+                {"name":"Ctrl+D: create 5s default +5dB DIP fade of selected Group, Audio, Mic, Video or Fade Cue as next cue", "mods":["COMMAND"]},
+                {"name":"Edit Cue Action Duration", "mods":[]}
+            ],
+            "DOLLAR" : [
+                {"name":"Duration +0.1s", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"Edit Cue Pre Wait Duration", "mods":[]}
+            ],
+            "EURO" : [
+                {"name":"Duration +5s", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "EXCLAMATION" : [
+                {"name":"Pre Wait -0.1s", "mods":["COMMAND", "CONTROL", "SHIFT"]},
+                {"name":"Pre Wait -5s", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "F" : [
+                {"name":"Toggle Cue Flag", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"Post Wait -1s", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"Duration +1s", "mods":["CONTROL"]}
+            ],
+            "G" : [
+                {"name":"/cue/selected/colorName green", "mods":["SHIFT"]},
+                {"name":"G: put selected cue(s) in a new GROUP Cue with number & notes from first cue", "mods":[]},
+                {"name":"convert GROUP Cue", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "HASH" : [
+                {"name":"Duration -5s", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "I" : [
+                {"name":"⇧+⌥+I: create 10s default fade IN of selected Audio, Mic or Video Cue as next cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"⌥+I: create 5s default fade IN of selected Audio, Mic or Video Cue as next cue", "mods":["COMMAND"]}
+            ],
+            "J" : [
+                {"name":"J: mark selected cue (or JUMP to previously marked cue)", "mods":[]}
+            ],
+            "K" : [
+                {"name":"CRASH fade", "mods":["CONTROL"]},
+                {"name":"FORCE fade", "mods":[]},
+                {"name":"FORCE running fades", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "L" : [
+                {"name":"LOCALISE media for selected cue(s) (keeping times)", "mods":["COMMAND", "CONTROL", "SHIFT"]},
+                {"name":"Load Selected Cue", "mods":[]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"Pause All", "mods":[]}
+            ],
+            "M" : [
+                {"name":"Ctrl+M: switch to Main Cue List", "mods":["CONTROL"]},
+                {"name":"Ctrl+Option+M: go ahead make MIDI", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Make MONO", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "N" : [
+                {"name":"/dashboard/newCueWithAll", "mods":["CONTROL"]},
+                {"name":"/dashboard/newCueWithChanges", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Edit Cue Number", "mods":[]}
+            ],
+            "NUMPAD_ASTERISK" : [
+                {"name":"LOOP cue ON", "mods":["CONTROL", "SHIFT"]},
+                {"name":"LOOP last slice", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Post Wait -1s", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Duration +1s", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Pre Wait -1s", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"Nudge +5s", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Post Wait +1s", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Duration -1s", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Pre Wait +1s", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"Edit Cue Notes", "mods":[]},
+                {"name":"⇧+⌥+O: create 10s default fade OUT of selected Group, Audio, Mic, Video or Fade Cue as next cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"⌥+O: create 5s default fade OUT of selected Group, Audio, Mic, Video or Fade Cue as next cue", "mods":["COMMAND"]}
+            ],
+            "ONE" : [
+                {"name":"Pre Wait -1s", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"/cue/selected/colorName purple", "mods":["SHIFT"]},
+                {"name":"Pause/Resume Selected Cues", "mods":[]},
+                {"name":"SOLO in pause", "mods":["CONTROL"]}
+            ],
+            "PERCENT" : [
+                {"name":"Post Wait -0.1s", "mods":["COMMAND", "CONTROL", "SHIFT"]},
+                {"name":"Post Wait -5s", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "PERIOD" : [
+                {"name":"Nudge +5s", "mods":["CONTROL"]}
+            ],
+            "POUND" : [
+                {"name":"Duration -0.1s", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "Q" : [
+                {"name":"Edit Cue Name", "mods":[]}
+            ],
+            "QUESTION_MARK" : [
+                {"name":"Level Default", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "R" : [
+                {"name":"/cue/selected/colorName red", "mods":["SHIFT"]},
+                {"name":"R: RENUMBER selected cue(s) with a prefix", "mods":[]},
+                {"name":"REVEAL selected cue's target in Finder", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+            ],
+            "RIGHT_BRACE" : [
+                {"name":"Bump +10dB", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"Bump +2.5dB", "mods":["CONTROL"]},
+                {"name":"Resume All", "mods":[]}
+            ],
+            "RIGHT_PARENTHESIS" : [
+                {"name":"LOOP cue OFF", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "S" : [
+                {"name":"Ctrl+S: switch to Scripts", "mods":["CONTROL"]},
+                {"name":"Option+S: add START Cue(s) to Main Cue List, targeting selected cue(s)", "mods":["COMMAND"]},
+                {"name":"Panic Selected Cues", "mods":[]}
+            ],
+            "SEMICOLON" : [
+                {"name":"Nudge -10s", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "SIX" : [
+                {"name":"Post Wait +1s", "mods":["CONTROL"]}
+            ],
+            "SPACE" : [
+                {"name":"GO", "mods":[]}
+            ],
+            "T" : [
+                {"name":"Edit Cue Target", "mods":[]}
+            ],
+            "THREE" : [
+                {"name":"Duration -1s", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"Pre Wait +1s", "mods":["CONTROL"]}
+            ],
+            "U" : [
+                {"name":"/dashboard/updateSelectedCues", "mods":["CONTROL"]},
+                {"name":"U: load nest of cues to waveform CURSOR", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Instant preview", "mods":["CONTROL"]},
+                {"name":"Preview (play action only)", "mods":[]}
+            ],
+            "W" : [
+                {"name":"Ctrl+W: switch to Work In Progress", "mods":["CONTROL"]},
+                {"name":"Edit Cue Post Wait Duration", "mods":[]}
+            ],
+            "X" : [
+                {"name":"CUT", "mods":[]},
+                {"name":"Ctrl+Option+X: SPLIT selected Audio Cue at waveform cursor", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Ctrl+X: switch to Cut", "mods":["CONTROL"]}
+            ],
+            "Y" : [
+                {"name":"/cue/selected/colorName orange", "mods":["SHIFT"]},
+                {"name":"Clear nested NUMBER", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"Clear NOTES", "mods":[]}
+            ]
+        }
+    }
+}

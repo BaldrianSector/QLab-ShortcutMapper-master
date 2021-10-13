@@ -1,0 +1,33 @@
+{
+    "name": "QLab",
+    "version": "v15.5",
+    "default_context": "Desktop Manager",
+    "os": ["windows", "mac", "linux"],
+    "contexts": {
+        "Desktop Manager": {
+            "New": ["Alt+N / N", "Alt+N / N"],
+            "Add": ["Alt+D / D", "Alt+D / D"],
+            "Save": ["Alt+S / S", "Alt+S / S"],
+            "Cancel": ["Esc", "Esc"]
+            "Preview": ["V", "V"],
+            "Load Selected Cue": ["L", "L"],
+            "Pause/Resume Selected Cues": ["P", "P"],
+            "Panic Selected Cues": ["S", "S"],
+            "Hard Stop Selected Cues": ["S+S", "S+S"],
+            "Edit Cue Number": ["N", "N"],
+            "Edit Cue Name": ["Q", "Q"],
+            "Edit Cue Notes": ["O", "O"],
+            "Edit Cue Target": ["T", "T"],
+            "Edit Cue Pre-wait": ["E", "E"],
+            "Edit Cue Action (duration)": ["D", "D"],
+            "Edit Cue Post-wait": ["W", "W"],
+            "Cycle Cue Continue Mode": ["C", "C"],
+            "Flag/Unflag": ["F", "F"]
+        },
+        "Toolbar Manager": {
+            "Add Toolbar": ["Alt+N", "Alt+N"],
+            "Save Toolbar": ["Alt+S", "Alt+S"],
+            "Cancel": ["Esc", "Esc"]
+        }
+    }
+}

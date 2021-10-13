@@ -1,0 +1,34 @@
+{
+        "name": "QLab",
+        "version": "4.6.10 custom hotkeys",
+        "default_context": "All custom hotkeys",
+        "os": ["windows", "mac"],
+        "contexts": {
+            "All custom hotkeys": {
+                "[1] Qname1": ["1", "1"],
+                "[⇧'] Qname2": ["Shift+\"", "Shift+\""],
+                "[⇧⌥#] Qname3": ["Shift+Alt+#", "Shift+Alt+#"],
+                "[⇧⌃⌥€] Qname4": ["Shift+Ctrl+Alt+€", "Shift+Ctrl+Alt+€"],
+                "[⌃5] Qname5": ["Ctrl+5", "Ctrl+5"],
+                "[⇧⌥&] Qname6": ["Shift+Alt+&", "Shift+Alt+&"],
+                "[7] Qname7": ["7", "7"],
+                "[⌃⌥9] Qname8": ["Ctrl+Alt+9", "Ctrl+Alt+9"],
+                "GO": ["Space", "Space"],
+                "Pause All": ["[", "["],
+                "Resume All": ["]", "]"],
+                "Preview (play action only)": ["V", "V"],
+                "Load Selected Cue": ["L", "L"],
+                "Pause/Resume Selected Cues": ["P", "P"],
+                "Panic Selected Cues": ["S", "S"],
+                "Edit Cue Number": ["N", "N"],
+                "Edit Cue Name": ["Q", "Q"],
+                "Edit Cue Notes": ["O", "O"],
+                "Edit Cue Target": ["T", "T"],
+                "Edit Cue Pre Wait Duration": ["E", "E"],
+                "Edit Cue Action Duration": ["D", "D"],
+                "Edit Cue Post Wait Duration": ["W", "W"],
+                "Cycle Cue Continue Mode": ["C", "C"],
+                "Toggle Cue Flag": ["F", "F"]
+            }
+        }
+    }
