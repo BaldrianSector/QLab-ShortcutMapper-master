@@ -431,23 +431,6 @@ nav button.os-linux b {
                 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
-.container_row{
-  display: flex;
-}
-
-.shiftLayer {
-  width: 100%;
-}
-
-.noModLayer {
-  width: 100%;
-  margin-left: -100%;
-}
-
-.hidden {
-  visibility: hidden;
-}
-
 .multiline-stuff {
   display: flex;
   flex-direction: column;

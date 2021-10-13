@@ -2,14 +2,6 @@
 
 //Change visibility when modifiers are pressed
 
-const hide = query => $(query).addClass('hidden');
-const show = query => $(query).removeClass('hidden');
-const switcher = off => off ? '#numbersNoMod' : '#numbersShiftMod'
-const toggleShift = (off = true) => {
-    hide(switcher(off));
-    show(switcher(!off));
-}
-
 (function($) {
     "use strict";
 
@@ -33,7 +25,8 @@ const toggleShift = (off = true) => {
             var buttons = this.element.find("button");
             buttons.each(function() {
                 var html = "<span class='label'>" + $(this).text() + "</span><b></b>";
-                var keyName = $(this).data("key");
+                var keyName = $(this).data('key');
+                var altKeyName = $(this).data('altkey');
                 var hasShortcut = false;
 
                 for (var contextName in keyboard.options.keydata) {
@@ -43,9 +36,9 @@ const toggleShift = (off = true) => {
 
                     var context = keyboard.options.keydata[contextName];
                     var contextSafeName = keyboard._getSafeID(contextName);
-                    var keyItems = context[keyName];
+                    var keyItems = [...(context[keyName] || []), ...(context[altKeyName] || [])];
 
-                    if (keyItems) {
+                    if (keyItems.length) {
                         html += "<div class='keyitems' data-context='" + contextSafeName + "'>";
 
                         for (var i=0; i<keyItems.length; i++) {
@@ -68,19 +61,23 @@ const toggleShift = (off = true) => {
                 }
 
                 // Is key a modifier key?
-                if ($.inArray(keyName, keyboard.options.mods) >= 0) {
-                    // This css class gives the mod a colored border
-                    $(this).addClass("mod-" + keyboard._getButtonModClass(keyName));
+                const handleModifier = (kName) => {
+                    if ($.inArray(kName, keyboard.options.mods) >= 0) {
+                        // This css class gives the mod a colored border
+                        $(this).addClass("mod-" + keyboard._getButtonModClass(kName));
 
-                    // Click to toggle modifier activeness
-                    $(this).on("click", function() {
-                        if ($.inArray(keyName, keyboard.activeModKeys) >= 0) {
-                            keyboard._deactivateModifiers([keyName]);
-                        } else {
-                            keyboard._activateModifiers([keyName]);
-                        }
-                    });
+                        // Click to toggle modifier activeness
+                        $(this).on("click", function() {
+                            if ($.inArray(kName, keyboard.activeModKeys) >= 0) {
+                                keyboard._deactivateModifiers([kName]);
+                            } else {
+                                keyboard._activateModifiers([kName]);
+                            }
+                        });
+                    }
                 }
+                handleModifier(keyName);
+                handleModifier(altKeyName);
             });
 
             // Set context
@@ -138,9 +135,6 @@ const toggleShift = (off = true) => {
 
                 // Add to active modifier key list
                 this.activeModKeys.push(keyName);
-                if (keyName === "SHIFT") {
-                    toggleShift();
-                }
             }
 
             this._update();
@@ -163,9 +157,6 @@ const toggleShift = (off = true) => {
                 // Remove from active modifier key
                 var idx = this.activeModKeys.indexOf(keyName);
                 this.activeModKeys.splice(idx, 1);
-                if (keyName === "SHIFT") {
-                    toggleShift(false);
-                }
             }
 
             this._update();
@@ -174,7 +165,6 @@ const toggleShift = (off = true) => {
         _clearActiveModifiers: function() {
             this.activeModKeys = [];
             $(this.element).find("button.mod-active").removeClass("mod-active");
-            toggleShift(false);
         },
 
         _getSafeID: function(name) {

@@ -1,13 +1,13 @@
 var sitedata_keyboards = {
-    "Danish SHIFT-MOD": {
-    mac: "danish_new_mac-kopi.html",
-    windows: "danish_new_mac-kopi.html",
-    linux: "danish_new_mac-kopi.html",
+    "Danish fixed": {
+        mac: "danish_new_mac-kopi.html",
+        windows: "danish_new_mac-kopi.html",
+        linux: "danish_new_mac-kopi.html",
     },
     "New Danish": {
-    mac: "danish_new_mac.html",
-    windows: "danish_new_mac.html",
-    linux: "danish_new_mac.html",
+        mac: "danish_new_mac.html",
+        windows: "danish_new_mac.html",
+        linux: "danish_new_mac.html",
     },
     "English US": {
         mac: "english-us_mac.html",
