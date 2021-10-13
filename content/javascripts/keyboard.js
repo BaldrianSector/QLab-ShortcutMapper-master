@@ -138,8 +138,10 @@ const toggleShift = (off = true) => {
 
                 // Add to active modifier key list
                 this.activeModKeys.push(keyName);
+                if (keyName === "SHIFT") {
+                    toggleShift();
+                }
             }
-            toggleShift();
 
             this._update();
         },
@@ -161,8 +163,10 @@ const toggleShift = (off = true) => {
                 // Remove from active modifier key
                 var idx = this.activeModKeys.indexOf(keyName);
                 this.activeModKeys.splice(idx, 1);
+                if (keyName === "SHIFT") {
+                    toggleShift(false);
+                }
             }
-            toggleShift(false);
 
             this._update();
         },
