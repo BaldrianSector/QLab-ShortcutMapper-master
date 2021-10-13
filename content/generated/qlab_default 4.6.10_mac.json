@@ -41,6 +41,7 @@
                 {"name":"Network", "mods":["COMMAND"]}
             ],
             "EQUAL" : [
+                {"name":"Move Playhead To Next Cue Sequence", "mods":["SHIFT"]},
                 {"name":"Move Playhead To Next Cue Sequence", "mods":[]}
             ],
             "ESCAPE" : [

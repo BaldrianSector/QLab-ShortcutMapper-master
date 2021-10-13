@@ -36,8 +36,7 @@
 
                     var context = keyboard.options.keydata[contextName];
                     var contextSafeName = keyboard._getSafeID(contextName);
-                    const altKeys = context[altKeyName].filter(({mods}) => mods.contains("SHIFT"));
-                    var keyItems = [...(context[keyName] || []), ...(altKeys || [])];
+                    var keyItems = [...(context[keyName] || []), ...(context[altKeyName] || []).filter(({mods}) => mods.includes("SHIFT"))];
 
                     if (keyItems.length) {
                         html += "<div class='keyitems' data-context='" + contextSafeName + "'>";
