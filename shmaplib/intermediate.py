@@ -197,7 +197,9 @@ class IntermediateShortcutData(object):
 class IntermediateDataExporter(object):
     """Exports an intermediate .json file to the contents/generated directory in the correct file format."""
 
-    def __init__(self, source, explicit_numpad_mode=False):
+    # Set explicit_numpad_mode: "Numpad keys don't have the same action as main keys"
+
+    def __init__(self, source, explicit_numpad_mode=True):
         super(IntermediateDataExporter, self).__init__()
         assert os.path.exists(source), "Source file '%s' does not exist" % source
 
