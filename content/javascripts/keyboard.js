@@ -12,7 +12,7 @@ const toggleShift = (off = true) => {
 
 (function($) {
     "use strict";
-    
+
     $.widget("custom.keyboard", {
 
         options: {
@@ -40,7 +40,7 @@ const toggleShift = (off = true) => {
                     if (!keyboard.options.keydata.hasOwnProperty(contextName)) {
                         continue;
                     }
-                        
+
                     var context = keyboard.options.keydata[contextName];
                     var contextSafeName = keyboard._getSafeID(contextName);
                     var keyItems = context[keyName];
@@ -170,6 +170,7 @@ const toggleShift = (off = true) => {
         _clearActiveModifiers: function() {
             this.activeModKeys = [];
             $(this.element).find("button.mod-active").removeClass("mod-active");
+            toggleShift(false);
         },
 
         _getSafeID: function(name) {
