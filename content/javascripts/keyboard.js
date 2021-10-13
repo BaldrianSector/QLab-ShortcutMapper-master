@@ -41,13 +41,11 @@
                     if (keyItems.length) {
                         html += "<div class='keyitems' data-context='" + contextSafeName + "'>";
 
-                        for (var i=0; i<keyItems.length; i++) {
-                            var keyItem = keyItems[i];
-                            var mods = (keyItem.mods.length > 0) ? keyItem.mods.join('_') : "NOMOD";
-                            html += "<div class='shortcut' data-mods='" + mods + "'>" + keyItem.name + "</div>";
-                        }
-
-                        html += "</div>";
+                        html += keyItems.reduce(([html, flag], keyItem) => {
+                            const l = keyItem.mods.length > 0;
+                            const mods = l || flag ? keyItem.mods.join('_') : "NOMOD";
+                            return [html + "<div class='shortcut' data-mods='" + mods + "'>" + keyItem.name + "</div>", !l || flag];
+                        }, ["", false])[0] + "</div>";
 
                         hasShortcut = true;
                     }
