@@ -1,5 +1,15 @@
 
 
+//Change visibility when modifiers are pressed
+
+const hide = query => $(query).addClass('hidden');
+const show = query => $(query).removeClass('hidden');
+const switcher = off => off ? '#numbersNoMod' : '#numbersShiftMod'
+const toggleShift = (off = true) => {
+    hide(switcher(off));
+    show(switcher(!off));
+}
+
 (function($) {
     "use strict";
     
@@ -129,6 +139,7 @@
                 // Add to active modifier key list
                 this.activeModKeys.push(keyName);
             }
+            toggleShift();
 
             this._update();
         },
@@ -151,6 +162,7 @@
                 var idx = this.activeModKeys.indexOf(keyName);
                 this.activeModKeys.splice(idx, 1);
             }
+            toggleShift(false);
 
             this._update();
         },

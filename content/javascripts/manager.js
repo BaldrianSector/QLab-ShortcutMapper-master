@@ -407,24 +407,3 @@ function ShortcutMapper() {
     };
 }
 
-//Change visibility when modifiers are pressed
-
-addEventListener('keydown', function (event) {
-  if (event.keyCode === 16) {
-    $('#numbersNoMod').addClass('hidden');
-    $('#numbersNoMod').removeClass('visible');
-    $('#numbersShiftMod').addClass('visible');
-    $('#numbersShiftMod').removeClass('hidden');
-    console.log('The "SHIFT" key is being held down');
-  }
-});
-
-addEventListener('keyup', function (event) {
-  if (event.keyCode === 16) {
-    $('#numbersNoMod').addClass('visible');
-    $('#numbersNoMod').removeClass('hidden');
-    $('#numbersShiftMod').addClass('hidden');
-    $('#numbersShiftMod').removeClass('visible');
-    console.clear();
-  }
-});
