@@ -1,8 +1,8 @@
 var sitedata_keyboards = {
     "Danish fixed": {
-        mac: "danish_new_mac-kopi.html",
-        windows: "danish_new_mac-kopi.html",
-        linux: "danish_new_mac-kopi.html",
+        mac: "danish_data_altkey.html",
+        windows: "danish_data_altkey.html",
+        linux: "danish_data_altkey.html",
     },
     "New Danish": {
         mac: "danish_new_mac.html",

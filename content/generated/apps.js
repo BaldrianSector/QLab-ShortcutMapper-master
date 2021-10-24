@@ -154,13 +154,13 @@ var sitedata_apps = [
                 "mac": "qlab_default 4.6.10_mac.json",
                 "windows": "qlab_default 4.6.10_windows.json",
             },
-            "Custom 4.6.10": {
-                "mac": "qlab_custom 4.6.10_mac.json",
-                "windows": "qlab_custom 4.6.10_windows.json",
-            },
             "4.6.10 custom hotkeys": {
                 "mac": "qlab_4.6.10 custom hotkeys_mac.json",
                 "windows": "qlab_4.6.10 custom hotkeys_windows.json",
+            },
+            "4.6.10 Default + Customizable shortcuts": {
+                "mac": "qlab_4.6.10 default + customizable shortcuts_mac.json",
+                "windows": "qlab_4.6.10 default + customizable shortcuts_windows.json",
             },
             "4.6.10": {
                 "mac": "qlab_4.6.10_mac.json",
