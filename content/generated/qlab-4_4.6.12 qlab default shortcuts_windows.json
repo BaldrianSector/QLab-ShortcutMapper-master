@@ -1,0 +1,487 @@
+{
+    "name" : "QLab 4",
+    "version" : "4.6.12 QLab Default",
+    "os" : "windows",
+    "mods_used" : ["ALT", "COMMAND", "CONTROL", "ESCAPE", "SHIFT"],
+    "default_context" : "All hotkeys",
+    "contexts" : {
+        "All shortcuts" : {
+            "A" : [
+                {"name":"Audition Window", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Select All", "mods":["COMMAND"]}
+            ],
+            "B" : [
+                {"name":"Warnings", "mods":["COMMAND"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"Delete", "mods":["COMMAND"]}
+            ],
+            "C" : [
+                {"name":"Copy Style", "mods":["ALT", "COMMAND"]},
+                {"name":"Copy", "mods":["COMMAND"]},
+                {"name":"Cycle Cue Continue Mode", "mods":[]},
+                {"name":"Show Colors", "mods":["ALT", "COMMAND", "SHIFT"]}
+            ],
+            "COMMA" : [
+                {"name":"Workspace Settings", "mods":["COMMAND"]}
+            ],
+            "D" : [
+                {"name":"Delete numbers of selected cues", "mods":["COMMAND"]},
+                {"name":"Edit Cue Action Duration", "mods":[]},
+                {"name":"Light Dashboard", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Move Playhead To Next Cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Select Next Cue", "mods":["COMMAND"]}
+            ],
+            "E" : [
+                {"name":"Edit Cue Pre Wait Duration", "mods":[]}
+            ],
+            "EIGHT" : [
+                {"name":"Network", "mods":["COMMAND"]}
+            ],
+            "ESCAPE" : [
+                {"name":"Hard Stop All", "mods":["ESCAPE"]},
+                {"name":"Panic All", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Enter/Exit Full Screen", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Find", "mods":["COMMAND"]},
+                {"name":"Toggle Cue Flag", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"Text", "mods":["COMMAND"]}
+            ],
+            "FOUR" : [
+                {"name":"Camera", "mods":["COMMAND"]}
+            ],
+            "G" : [
+                {"name":"Find Next", "mods":["COMMAND"]},
+                {"name":"Find Previous", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Hide Others", "mods":["ALT", "COMMAND"]},
+                {"name":"Hide QLab", "mods":["COMMAND"]}
+            ],
+            "I" : [
+                {"name":"Inspector for Selected Cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Inspector", "mods":["COMMAND"]},
+                {"name":"Set start time in waveform view", "mods":["SHIFT"]}
+            ],
+            "J" : [
+                {"name":"Jump to cue", "mods":["COMMAND"]},
+                {"name":"Jump to selected cue's target", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "K" : [
+                {"name":"Toolbox", "mods":["COMMAND"]}
+            ],
+            "L" : [
+                {"name":"Lists & Carts / Active Cues", "mods":["COMMAND"]},
+                {"name":"Load Selected Cue", "mods":[]},
+                {"name":"Toggle Lists & Carts / Active Cues", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Nudge -0.01 in Timeline view", "mods":["ALT", "SHIFT"]},
+                {"name":"Nudge -0.1 in Timeline view", "mods":["ALT"]},
+                {"name":"Select Previous Tab", "mods":["COMMAND"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"Enter Edit Mode", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Pause All", "mods":[]}
+            ],
+            "LESSTHAN" : [
+                {"name":"Collapse all Group cues", "mods":[]}
+            ],
+            "M" : [
+                {"name":"Add slice in waveform view", "mods":[]},
+                {"name":"Minimize", "mods":["COMMAND"]}
+            ],
+            "MINUS" : [
+                {"name":"Zoom out horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom out vertically", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "MORETHAN" : [
+                {"name":"Expand all Group cues", "mods":["SHIFT"]}
+            ],
+            "N" : [
+                {"name":"Edit Cue Number", "mods":[]},
+                {"name":"New From Template", "mods":["COMMAND", "SHIFT"]},
+                {"name":"New Workspace", "mods":["COMMAND"]}
+            ],
+            "NINE" : [
+                {"name":"MIDI", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Network", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Text", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Camera", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"MIDI", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Audio", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Fade", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Light", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Video", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Mic", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Group", "mods":["COMMAND"]}
+            ],
+            "O" : [
+                {"name":"Edit Cue Notes", "mods":[]},
+                {"name":"Open Workspace", "mods":["COMMAND"]},
+                {"name":"Override Controls", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Set end time in waveform view", "mods":["SHIFT"]}
+            ],
+            "ONE" : [
+                {"name":"Audio", "mods":["COMMAND"]}
+            ],
+            "P" : [
+                {"name":"Pause/Resume Selected Cues", "mods":[]},
+                {"name":"Turn on/off live fade preview", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "PLUS" : [
+                {"name":"Zoom in horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom in vertically", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "Q" : [
+                {"name":"Edit Cue Name", "mods":[]},
+                {"name":"Quit QLab", "mods":["COMMAND"]}
+            ],
+            "R" : [
+                {"name":"Renumber selected cues", "mods":["COMMAND"]},
+                {"name":"Revert Fade Action", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Nudge +0.01 in Timeline view", "mods":["ALT", "SHIFT"]},
+                {"name":"Nudge +0.1 in Timeline view", "mods":["ALT"]},
+                {"name":"Select Next Tab", "mods":["COMMAND"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"Enter Show Mode", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Resume All", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Panic Selected Cues", "mods":[]},
+                {"name":"Save As", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Save", "mods":["COMMAND"]}
+            ],
+            "SEVEN" : [
+                {"name":"Fade", "mods":["COMMAND"]}
+            ],
+            "SIX" : [
+                {"name":"Light", "mods":["COMMAND"]}
+            ],
+            "SPACE" : [
+                {"name":"GO", "mods":[]}
+            ],
+            "T" : [
+                {"name":"Edit Cue Target", "mods":[]},
+                {"name":"Load to time", "mods":["COMMAND"]},
+                {"name":"Set Audio Levels From Target", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Show Fonts", "mods":["ALT", "COMMAND", "SHIFT"]}
+            ],
+            "THREE" : [
+                {"name":"Video", "mods":["COMMAND"]}
+            ],
+            "TWO" : [
+                {"name":"Mic", "mods":["COMMAND"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Move Playhead To Previous Cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Select Previous Cue", "mods":["COMMAND"]}
+            ],
+            "V" : [
+                {"name":"Paste Cue Properties", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Paste Style", "mods":["ALT", "COMMAND"]},
+                {"name":"Paste and Match Style", "mods":["ALT", "COMMAND", "SHIFT"]},
+                {"name":"Paste", "mods":["COMMAND"]},
+                {"name":"Preview (play action only)", "mods":[]},
+                {"name":"Set Video Geometry From Target", "mods":["ALT", "COMMAND", "CONTROL"]}
+            ],
+            "W" : [
+                {"name":"Close", "mods":["COMMAND"]},
+                {"name":"Edit Cue Post Wait Duration", "mods":[]},
+                {"name":"Workspace Status", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "X" : [
+                {"name":"Cut", "mods":["COMMAND"]}
+            ],
+            "Z" : [
+                {"name":"Redo", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Undo", "mods":["COMMAND"]}
+            ],
+            "ZERO" : [
+                {"name":"Group", "mods":["COMMAND"]}
+            ]
+        },
+        "Customizable shortcuts" : {
+            "C" : [
+                {"name":"Cycle Cue Continue Mode", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Edit Cue Action Duration", "mods":[]}
+            ],
+            "E" : [
+                {"name":"Edit Cue Pre Wait Duration", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Toggle Cue Flag", "mods":[]}
+            ],
+            "L" : [
+                {"name":"Load Selected Cue", "mods":[]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"Pause All", "mods":[]}
+            ],
+            "N" : [
+                {"name":"Edit Cue Number", "mods":[]}
+            ],
+            "O" : [
+                {"name":"Edit Cue Notes", "mods":[]}
+            ],
+            "P" : [
+                {"name":"Pause/Resume Selected Cues", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"Edit Cue Name", "mods":[]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"Resume All", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Panic Selected Cues", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"GO", "mods":[]}
+            ],
+            "T" : [
+                {"name":"Edit Cue Target", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Preview (play action only)", "mods":[]}
+            ],
+            "W" : [
+                {"name":"Edit Cue Post Wait Duration", "mods":[]}
+            ]
+        },
+        "Fixed shortcuts" : {
+            "A" : [
+                {"name":"Audition Window", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Select All", "mods":["COMMAND"]}
+            ],
+            "B" : [
+                {"name":"Warnings", "mods":["COMMAND"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"Delete", "mods":["COMMAND"]}
+            ],
+            "C" : [
+                {"name":"Copy Style", "mods":["ALT", "COMMAND"]},
+                {"name":"Copy", "mods":["COMMAND"]},
+                {"name":"Show Colors", "mods":["ALT", "COMMAND", "SHIFT"]}
+            ],
+            "COMMA" : [
+                {"name":"Workspace Settings", "mods":["COMMAND"]}
+            ],
+            "D" : [
+                {"name":"Delete numbers of selected cues", "mods":["COMMAND"]},
+                {"name":"Light Dashboard", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Move Playhead To Next Cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Select Next Cue", "mods":["COMMAND"]}
+            ],
+            "EIGHT" : [
+                {"name":"Network", "mods":["COMMAND"]}
+            ],
+            "ESCAPE" : [
+                {"name":"Hard Stop All", "mods":["ESCAPE"]},
+                {"name":"Panic All", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Enter/Exit Full Screen", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Find", "mods":["COMMAND"]}
+            ],
+            "FIVE" : [
+                {"name":"Text", "mods":["COMMAND"]}
+            ],
+            "FOUR" : [
+                {"name":"Camera", "mods":["COMMAND"]}
+            ],
+            "G" : [
+                {"name":"Find Next", "mods":["COMMAND"]},
+                {"name":"Find Previous", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Hide Others", "mods":["ALT", "COMMAND"]},
+                {"name":"Hide QLab", "mods":["COMMAND"]}
+            ],
+            "I" : [
+                {"name":"Inspector for Selected Cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Inspector", "mods":["COMMAND"]},
+                {"name":"Set start time in waveform view", "mods":["SHIFT"]}
+            ],
+            "J" : [
+                {"name":"Jump to cue", "mods":["COMMAND"]},
+                {"name":"Jump to selected cue's target", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "K" : [
+                {"name":"Toolbox", "mods":["COMMAND"]}
+            ],
+            "L" : [
+                {"name":"Lists & Carts / Active Cues", "mods":["COMMAND"]},
+                {"name":"Toggle Lists & Carts / Active Cues", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Nudge -0.01 in Timeline view", "mods":["ALT", "SHIFT"]},
+                {"name":"Nudge -0.1 in Timeline view", "mods":["ALT"]},
+                {"name":"Select Previous Tab", "mods":["COMMAND"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"Enter Edit Mode", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "LESSTHAN" : [
+                {"name":"Collapse all Group cues", "mods":[]}
+            ],
+            "M" : [
+                {"name":"Add slice in waveform view", "mods":[]},
+                {"name":"Minimize", "mods":["COMMAND"]}
+            ],
+            "MINUS" : [
+                {"name":"Zoom out horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom out vertically", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "MORETHAN" : [
+                {"name":"Expand all Group cues", "mods":["SHIFT"]}
+            ],
+            "N" : [
+                {"name":"New From Template", "mods":["COMMAND", "SHIFT"]},
+                {"name":"New Workspace", "mods":["COMMAND"]}
+            ],
+            "NINE" : [
+                {"name":"MIDI", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Network", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Text", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Camera", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"MIDI", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Audio", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Fade", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Light", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Video", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Mic", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Group", "mods":["COMMAND"]}
+            ],
+            "O" : [
+                {"name":"Open Workspace", "mods":["COMMAND"]},
+                {"name":"Override Controls", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Set end time in waveform view", "mods":["SHIFT"]}
+            ],
+            "ONE" : [
+                {"name":"Audio", "mods":["COMMAND"]}
+            ],
+            "P" : [
+                {"name":"Turn on/off live fade preview", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "PLUS" : [
+                {"name":"Zoom in horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom in vertically", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "Q" : [
+                {"name":"Quit QLab", "mods":["COMMAND"]}
+            ],
+            "R" : [
+                {"name":"Renumber selected cues", "mods":["COMMAND"]},
+                {"name":"Revert Fade Action", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Nudge +0.01 in Timeline view", "mods":["ALT", "SHIFT"]},
+                {"name":"Nudge +0.1 in Timeline view", "mods":["ALT"]},
+                {"name":"Select Next Tab", "mods":["COMMAND"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"Enter Show Mode", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "S" : [
+                {"name":"Save As", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Save", "mods":["COMMAND"]}
+            ],
+            "SEVEN" : [
+                {"name":"Fade", "mods":["COMMAND"]}
+            ],
+            "SIX" : [
+                {"name":"Light", "mods":["COMMAND"]}
+            ],
+            "T" : [
+                {"name":"Load to time", "mods":["COMMAND"]},
+                {"name":"Set Audio Levels From Target", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Show Fonts", "mods":["ALT", "COMMAND", "SHIFT"]}
+            ],
+            "THREE" : [
+                {"name":"Video", "mods":["COMMAND"]}
+            ],
+            "TWO" : [
+                {"name":"Mic", "mods":["COMMAND"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Move Playhead To Previous Cue", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Select Previous Cue", "mods":["COMMAND"]}
+            ],
+            "V" : [
+                {"name":"Paste Cue Properties", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Paste Style", "mods":["ALT", "COMMAND"]},
+                {"name":"Paste and Match Style", "mods":["ALT", "COMMAND", "SHIFT"]},
+                {"name":"Paste", "mods":["COMMAND"]},
+                {"name":"Set Video Geometry From Target", "mods":["ALT", "COMMAND", "CONTROL"]}
+            ],
+            "W" : [
+                {"name":"Close", "mods":["COMMAND"]},
+                {"name":"Workspace Status", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "X" : [
+                {"name":"Cut", "mods":["COMMAND"]}
+            ],
+            "Z" : [
+                {"name":"Redo", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Undo", "mods":["COMMAND"]}
+            ],
+            "ZERO" : [
+                {"name":"Group", "mods":["COMMAND"]}
+            ]
+        }
+    }
+}

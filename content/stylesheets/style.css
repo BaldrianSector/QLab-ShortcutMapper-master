@@ -984,18 +984,16 @@ div#keyboard button.mod-other.mod-active {
 }
 
 #footer span {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.7em;
-    line-height: 1em;
+
 }
 
 #footer span a {
-    font-weight: 400;
-    color: #151515;
+    color: #fff;
+    text-decoration: none;
 }
 #footer span a:hover {
-    color: #0089ff;
+    color: #fff;
+    text-decoration: underline;
 }
 
 
