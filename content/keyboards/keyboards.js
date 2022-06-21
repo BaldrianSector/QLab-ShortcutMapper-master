@@ -1,5 +1,5 @@
 var sitedata_keyboards = {
-    "Danish fixed": {
+    "Danish Layout": {
         mac: "danish_data_altkey.html",
         windows: "danish_data_altkey.html",
         linux: "danish_data_altkey.html",

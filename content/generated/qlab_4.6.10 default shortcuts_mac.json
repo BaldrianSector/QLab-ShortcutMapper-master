@@ -76,9 +76,9 @@
                 {"name":"Toolbox", "mods":["COMMAND"]}
             ],
             "L" : [
-                {"name":"Lists / Carts & Active Cues", "mods":["COMMAND"]},
+                {"name":"Lists & Carts / Active Cues", "mods":["COMMAND"]},
                 {"name":"Load Selected Cue", "mods":[]},
-                {"name":"Toggle Between Lists / Carts & Active Cues", "mods":["COMMAND", "SHIFT"]}
+                {"name":"Toggle Lists & Carts / Active Cues", "mods":["COMMAND", "SHIFT"]}
             ],
             "LEFT_ARROW" : [
                 {"name":"Nudge -0.01 in Timeline view", "mods":["ALT", "SHIFT"]},

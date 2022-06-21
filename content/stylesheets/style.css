@@ -2,12 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 @font-face {
     font-family: 'latobold';
-    src: url('Fonts/Lato-Bol-webfont.eot');
-    src: url('Fonts/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/Lato-Bol-webfont.woff2') format('woff2'),
-         url('Fonts/Lato-Bol-webfont.woff') format('woff'),
-         url('Fonts/Lato-Bol-webfont.ttf') format('truetype'),
-         url('Fonts/Lato-Bol-webfont.svg#latobold') format('svg');
+    src: url('../fonts/Lato-Bol-webfont.eot');
+    src: url('../fonts/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bol-webfont.woff2') format('woff2'),
+         url('../fonts/Lato-Bol-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bol-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bol-webfont.svg#latobold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -21,7 +21,6 @@ body {
     font-family: 'Lato', sans-serif;
     /* background: url('../images/background.png'); */
     padding: 50px 0 0 0;
-
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(111,9,121,1) 100%);
 }
@@ -971,7 +970,6 @@ div#keyboard button.mod-other.mod-active {
 
 #footer {
     top: 10;
-    bottom: 0;
     font-style: normal;
     font-weight: 300;
     font-size: 0.7em;

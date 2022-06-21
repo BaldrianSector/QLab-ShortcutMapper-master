@@ -4,23 +4,15 @@
 
 var sitedata_apps = [
     {
-        name: "QLab",
+        name: "QLab 4",
         data: {
             "4.6.12 QLab Template": {
                 "mac": "qlab_4.6.12 qlab template_mac.json",
                 "windows": "qlab_4.6.12 qlab template_windows.json",
             },
-            "4.6.10 QLab Template": {
-                "mac": "qlab_4.6.10 qlab template_mac.json",
-                "windows": "qlab_4.6.10 qlab template_windows.json",
-            },
-            "4.6.10 Default Shortcuts": {
+            "4.6.12 Default Shortcuts": {
                 "mac": "qlab_4.6.10 default shortcuts_mac.json",
                 "windows": "qlab_4.6.10 default shortcuts_windows.json",
-            },
-            "4.6.10 Default + Customizable shortcuts": {
-                "mac": "qlab_4.6.10 default + customizable shortcuts_mac.json",
-                "windows": "qlab_4.6.10 default + customizable shortcuts_windows.json",
             },
         }
     },
