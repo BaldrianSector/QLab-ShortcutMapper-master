@@ -1,11 +1,11 @@
 {
     "name" : "QLab",
-    "version" : "Default 4.6.10",
+    "version" : "4.6.10 Default Shortcuts",
     "os" : "windows",
-    "mods_used" : ["COMMAND", "CONTROL", "ESCAPE", "S", "SHIFT"],
-    "default_context" : "Default",
+    "mods_used" : ["ALT", "COMMAND", "CONTROL", "ESCAPE", "SHIFT"],
+    "default_context" : "Default Shortcuts",
     "contexts" : {
-        "Default" : {
+        "Default Shortcuts" : {
             "A" : [
                 {"name":"Audition Window", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Select All", "mods":["COMMAND"]}
@@ -17,17 +17,17 @@
                 {"name":"Delete", "mods":["COMMAND"]}
             ],
             "C" : [
-                {"name":"Copy Style", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Copy Style", "mods":["ALT", "COMMAND"]},
                 {"name":"Copy", "mods":["COMMAND"]},
                 {"name":"Cycle Cue Continue Mode", "mods":[]},
-                {"name":"Show Colors", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+                {"name":"Show Colors", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "COMMA" : [
                 {"name":"Workspace Settings", "mods":["COMMAND"]}
             ],
             "D" : [
-                {"name":"Delete numbers of selected cues…", "mods":["COMMAND"]},
-                {"name":"Edit Cue Action (duration)", "mods":[]},
+                {"name":"Delete numbers of selected cues", "mods":["COMMAND"]},
+                {"name":"Edit Cue Action Duration", "mods":[]},
                 {"name":"Light Dashboard", "mods":["COMMAND", "SHIFT"]}
             ],
             "DOWN_ARROW" : [
@@ -35,13 +35,10 @@
                 {"name":"Select Next Cue", "mods":["COMMAND"]}
             ],
             "E" : [
-                {"name":"Edit Cue Pre-wait", "mods":[]}
+                {"name":"Edit Cue Pre Wait Duration", "mods":[]}
             ],
             "EIGHT" : [
                 {"name":"Network", "mods":["COMMAND"]}
-            ],
-            "EQUAL" : [
-                {"name":"Move Playhead To Next Cue Sequence", "mods":[]}
             ],
             "ESCAPE" : [
                 {"name":"Hard Stop All", "mods":["ESCAPE"]},
@@ -49,8 +46,8 @@
             ],
             "F" : [
                 {"name":"Enter/Exit Full Screen", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Find…", "mods":["COMMAND"]},
-                {"name":"Flag/Unflag", "mods":[]}
+                {"name":"Find", "mods":["COMMAND"]},
+                {"name":"Toggle Cue Flag", "mods":[]}
             ],
             "FIVE" : [
                 {"name":"Text", "mods":["COMMAND"]}
@@ -63,17 +60,17 @@
                 {"name":"Find Previous", "mods":["COMMAND", "SHIFT"]}
             ],
             "H" : [
-                {"name":"Hide Others", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Hide Others", "mods":["ALT", "COMMAND"]},
                 {"name":"Hide QLab", "mods":["COMMAND"]}
             ],
             "I" : [
                 {"name":"Inspector for Selected Cue", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Inspector", "mods":["COMMAND"]},
-                {"name":"Set start time to current time in the Time & Loops waveform view", "mods":["SHIFT"]}
+                {"name":"Set start time in waveform view", "mods":["SHIFT"]}
             ],
             "J" : [
-                {"name":"Jump to cue…", "mods":["COMMAND"]},
-                {"name":"Jump to selected cue’s target", "mods":["COMMAND", "SHIFT"]}
+                {"name":"Jump to cue", "mods":["COMMAND"]},
+                {"name":"Jump to selected cue's target", "mods":["COMMAND", "SHIFT"]}
             ],
             "K" : [
                 {"name":"Toolbox", "mods":["COMMAND"]}
@@ -84,8 +81,8 @@
                 {"name":"Toggle Between Lists / Carts & Active Cues", "mods":["COMMAND", "SHIFT"]}
             ],
             "LEFT_ARROW" : [
-                {"name":"Nudge selected cues -0.01 second in the Group Timeline view", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Nudge selected cues -0.1 second in the Group Timeline view", "mods":["CONTROL"]},
+                {"name":"Nudge -0.01 in Timeline view", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Nudge -0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Previous Tab", "mods":["COMMAND"]}
             ],
             "LEFT_BRACKET" : [
@@ -96,16 +93,15 @@
                 {"name":"Collapse all Group cues", "mods":[]}
             ],
             "M" : [
-                {"name":"Add slice at current time in the Time & Loops waveform view", "mods":[]},
+                {"name":"Add slice in waveform view", "mods":[]},
                 {"name":"Minimize", "mods":["COMMAND"]}
             ],
             "MINUS" : [
-                {"name":"Move Playhead To Previous Cue Sequence", "mods":[]},
-                {"name":"Zoom out on the Time & Loops waveform view", "mods":["COMMAND"]},
-                {"name":"Zoom out vertically on the Group Timeline view", "mods":["COMMAND", "SHIFT"]}
+                {"name":"Zoom out horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom out vertically", "mods":["COMMAND", "SHIFT"]}
             ],
             "MORETHAN" : [
-                {"name":"Expand all Group cues", "mods":[]}
+                {"name":"Expand all Group cues", "mods":["SHIFT"]}
             ],
             "N" : [
                 {"name":"Edit Cue Number", "mods":[]},
@@ -118,19 +114,11 @@
             "NUMPAD_EIGHT" : [
                 {"name":"Network", "mods":["COMMAND"]}
             ],
-            "NUMPAD_EQUAL" : [
-                {"name":"Move Playhead To Next Cue Sequence", "mods":[]}
-            ],
             "NUMPAD_FIVE" : [
                 {"name":"Text", "mods":["COMMAND"]}
             ],
             "NUMPAD_FOUR" : [
                 {"name":"Camera", "mods":["COMMAND"]}
-            ],
-            "NUMPAD_MINUS" : [
-                {"name":"Move Playhead To Previous Cue Sequence", "mods":[]},
-                {"name":"Zoom out on the Time & Loops waveform view", "mods":["COMMAND"]},
-                {"name":"Zoom out vertically on the Group Timeline view", "mods":["COMMAND", "SHIFT"]}
             ],
             "NUMPAD_NINE" : [
                 {"name":"MIDI", "mods":["COMMAND"]}
@@ -155,9 +143,9 @@
             ],
             "O" : [
                 {"name":"Edit Cue Notes", "mods":[]},
-                {"name":"Open Workspace…", "mods":["COMMAND"]},
+                {"name":"Open Workspace", "mods":["COMMAND"]},
                 {"name":"Override Controls", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Set end time to current time in the Time & Loops waveform view", "mods":["SHIFT"]}
+                {"name":"Set end time in waveform view", "mods":["SHIFT"]}
             ],
             "ONE" : [
                 {"name":"Audio", "mods":["COMMAND"]}
@@ -166,17 +154,21 @@
                 {"name":"Pause/Resume Selected Cues", "mods":[]},
                 {"name":"Turn on/off live fade preview", "mods":["COMMAND", "SHIFT"]}
             ],
+            "PLUS" : [
+                {"name":"Zoom in horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom in vertically", "mods":["COMMAND", "SHIFT"]}
+            ],
             "Q" : [
                 {"name":"Edit Cue Name", "mods":[]},
                 {"name":"Quit QLab", "mods":["COMMAND"]}
             ],
             "R" : [
-                {"name":"Renumber selected cues…", "mods":["COMMAND"]},
+                {"name":"Renumber selected cues", "mods":["COMMAND"]},
                 {"name":"Revert Fade Action", "mods":["COMMAND", "SHIFT"]}
             ],
             "RIGHT_ARROW" : [
-                {"name":"Nudge selected cues +0.01 second in the Group Timeline view", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Nudge selected cues +0.1 second in the Group Timeline view", "mods":["CONTROL"]},
+                {"name":"Nudge +0.01 in Timeline view", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Nudge +0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Next Tab", "mods":["COMMAND"]}
             ],
             "RIGHT_BRACKET" : [
@@ -184,9 +176,8 @@
                 {"name":"Resume All", "mods":[]}
             ],
             "S" : [
-                {"name":"Hard Stop Selected Cues", "mods":["S"]},
                 {"name":"Panic Selected Cues", "mods":[]},
-                {"name":"Save As…", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Save As", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Save", "mods":["COMMAND"]}
             ],
             "SEVEN" : [
@@ -200,9 +191,9 @@
             ],
             "T" : [
                 {"name":"Edit Cue Target", "mods":[]},
-                {"name":"Load to time…", "mods":["COMMAND"]},
+                {"name":"Load to time", "mods":["COMMAND"]},
                 {"name":"Set Audio Levels From Target", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Show Fonts", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+                {"name":"Show Fonts", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "THREE" : [
                 {"name":"Video", "mods":["COMMAND"]}
@@ -215,16 +206,16 @@
                 {"name":"Select Previous Cue", "mods":["COMMAND"]}
             ],
             "V" : [
-                {"name":"Paste Cue Properties…", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Paste Style", "mods":["COMMAND", "CONTROL"]},
-                {"name":"Paste and Match Style", "mods":["COMMAND", "CONTROL", "SHIFT"]},
+                {"name":"Paste Cue Properties", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Paste Style", "mods":["ALT", "COMMAND"]},
+                {"name":"Paste and Match Style", "mods":["ALT", "COMMAND", "SHIFT"]},
                 {"name":"Paste", "mods":["COMMAND"]},
-                {"name":"Preview", "mods":[]},
-                {"name":"Set Video Geometry From Target", "mods":["COMMAND", "CONTROL"]}
+                {"name":"Preview (play action only)", "mods":[]},
+                {"name":"Set Video Geometry From Target", "mods":["ALT", "COMMAND", "CONTROL"]}
             ],
             "W" : [
                 {"name":"Close", "mods":["COMMAND"]},
-                {"name":"Edit Cue Post-wait", "mods":[]},
+                {"name":"Edit Cue Post Wait Duration", "mods":[]},
                 {"name":"Workspace Status", "mods":["COMMAND", "SHIFT"]}
             ],
             "X" : [

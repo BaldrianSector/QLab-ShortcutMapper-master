@@ -5,16 +5,30 @@ https://github.com/timothylong/Responsive-Sticky-Footer/blob/master/index.html
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/Lato-Bol-webfont.eot');
+    src: url('../fonts/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bol-webfont.woff2') format('woff2'),
+         url('../fonts/Lato-Bol-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bol-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bol-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html, body {
     height: 100%;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background: url('../images/background.png');
-    padding: 0;
-    margin: 0;
+    font-family: 'Lato', sans-serif;
+    /* background: url('../images/background.png'); */
+    padding: 50px 0 0 0;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(111,9,121,1) 100%);
 }
 
 #mainwrap {
@@ -27,17 +41,17 @@ body {
 
 header {
     display: table-row;
-    color: #303030;
+    color: #fff;
     width: 100%;
     height: 1px;
     text-align: center;
 }
 
 header h1 {
-    font-style: italic;
-    font-weight: 300;
+    font-style: bold;
+    font-weight: 400;
     font-size: 1.8em;
-    margin: 22px 0 2px 0;
+    margin: 0px 0 2px 0;
 }
 
 header p {
@@ -46,6 +60,27 @@ header p {
     font-size: 0.8em;
     line-height: 1em;
     margin: 0;
+}
+
+header p.lower {
+    margin-top: 5px;
+}
+
+header p.lower  a{
+    color: #fff;
+}
+
+#how-to {
+    padding-top:55px;
+}
+
+#how-to a {
+    color:#fff;
+    text-decoration:none;
+}
+
+#how-to a:hover {
+    text-decoration:underline;
 }
 
 /* CONTRIBUTE */
@@ -57,8 +92,6 @@ header p {
     right: 30px;
     z-index: 10;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
 }
 #banners ul {
     list-style: none;
@@ -91,13 +124,24 @@ header p {
 #banners li.github a {
     background-color: #5f5f5f;
     border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    margin-right: 1px;
 }
 #banners li.github a:hover {
     background-color: #414141;
 }
 #banners li.github a .icon {
     background: url('../images/sprites.png') no-repeat 0 -47px;
+}
+#banners li.coin a {
+    border-bottom-right-radius: 2px;
+    background-color: #FFAD00;
+    padding-right: 25px;
+}
+#banners li.coin a:hover {
+    background-color: #cc3406;
+}
+#banners li.coin a .icon {
+    background: url('../images/sprites.png') no-repeat -24px -47px;
 }
 
 
@@ -121,27 +165,48 @@ header p {
 #othercontent {
     position: relative;
     margin-top: 40px;
-    min-height: 250px;
+    /* min-height: 250px; */
 }
 
 #keyinfo {
     position: absolute;
     left: 0;
-    width: 365px;
-    height: 200px;
-}
+    width: 230px;
+    padding-top: 88px;
+    height: 100px;
 
+}
+#keyinfo ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 7px 0 0 ;
+    text-align: right;
+}
+#keyinfo ul:before {
+    content: '';
+    position: absolute;
+    border-top: 1px solid #777777;
+    opacity: 0.8;
+    width: 30%;
+    right: 7px;
+    top: 80px;
+}
+#keyinfo ul li b{
+    color: #777777;
+    opacity: 0.8;
+
+    font-size: 12px;
+}
+#keyinfo ul li a{
+    color: #777777;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 12px;
+}
 #search {
     position: absolute;
     left: 365px; /* = (contentwrap.width-550)/2; */
     width: 550px;
-}
-
-#mousecontent {
-    position: absolute;
-    right: 0;
-    width: 365px;
-    height: 250px;
 }
 
 /* Common input styles ******/
@@ -151,21 +216,22 @@ nav .chosen-container-single .chosen-single,
 #searchbox input {
     position: relative;
     overflow: hidden;
-    padding: 7px 12px;
+    padding: 11px 15px;
     margin: 0;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    background-color: #f7f7f7;
-    background-image: -webkit-linear-gradient(top, rgb(249,249,249) 0%, rgb(246,246,246) 100%);
-    background-image: linear-gradient(top, rgb(249,249,249) 0%, rgb(246,246,246) 100%);
+  /*  border: 1px solid #fff;
+    border-radius: 2px;*/
+    background-color: #fff;
+    /*background-image: -webkit-linear-gradient(top, rgb(249,249,249) 0%, rgb(246,246,246) 100%);
+    background-image: linear-gradient(top, rgb(249,249,249) 0%, rgb(246,246,246) 100%);*/
     background-clip: padding-box;
-    box-shadow: 0 0 1px 1px #d0d0d0,
-                0 2px 1px 0px #d0d0d0;
+    /*box-shadow: 0 0 1px 1px #d0d0d0,
+                0 2px 1px 0px #d0d0d0;*/
     font-size: 0.8em;
     font-weight: 400;
     text-decoration: none;
-    color: #606060;
+    color: #666;
     white-space: nowrap;
+    border: 1px solid #ccc;
 }
 .chosen-container-active.chosen-with-drop .chosen-single,
 nav button.checked,
@@ -174,6 +240,8 @@ nav button.checked,
     outline: none;
     background-image: -webkit-linear-gradient(top, rgb(226, 226, 226) 0%, rgb(243,243,243) 100%);
     background-image: linear-gradient(top, rgb(226, 226, 226) 0%, rgb(243,243,243) 100%);
+
+    background: #DFDFDF;
 }
 
 /*** NAVIGATION *****************************************************/
@@ -186,7 +254,7 @@ nav {
 
 nav .inputgroup {
     float: left;
-    margin-right: 35px;
+    margin-right:50px;
 }
 
 nav .inputgroup:last-child {
@@ -209,7 +277,7 @@ nav .inputgroup .midfield,
 nav .inputgroup .midfield .chosen-single {
     border-radius: 0px;
     border-left-color: #f7f7f7;
-    margin-left: 1px;
+    /*margin-left: 1px;*/
 }
 
 nav .inputgroup .rightfield,
@@ -217,47 +285,56 @@ nav .inputgroup .rightfield .chosen-single {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-left-color: #f7f7f7;
-    margin-left: 1px;
+    /*margin-left: 1px;*/
 }
 
-#application_select { width: 160px; }
-#version_select { width: 300px; }
+#application_select { width: 140px; }
+#version_select { width: 260px;}
 #context_select { width: 260px; }
-#keyboardtype_select { width: 175px; }
+#keyboardtype_select { width: 200px; }
 
 nav .chosen-container-single.keyboard-select .chosen-single {
     padding-right: 10px;
 }
 nav .chosen-container-single.keyboard-select .chosen-single div {
-    width: 34px;
+    width: 15px;
     height: 14px;
 }
 nav .chosen-container-single.keyboard-select .chosen-single div b {
     padding-right: 10px;
-    background: url('../images/sprites.png') no-repeat -10px 0px;
+    background: url('../images/sprites.png') no-repeat -35px 0px;
 }
 
 
 nav button.os-radiobutton {
-    height: 34px;
+    height: 42px;
+	width:48px;
     line-height: 1px;
-    padding: 7px 9px 7px 9px;
+   /* padding: 7px 9px 7px 9px;
+   padding:0px;*/
+	 cursor:pointer;
+    border: 0px solid #ccc;
+    display: none;
 }
 nav button.os-radiobutton b {
     display: block;
-    width: 17px;
-    height: 17px;
+    width: 20px;
+    height: 16px;
     background: url('../images/sprites.png') no-repeat 0px 0px;
     padding: 0px;
+    display: none;
 }
 nav button.os-windows b {
-    background-position: 0px -30px;
+    background-position: 2px -30px;
+    display: none;
 }
 nav button.os-mac b {
-    background-position: -17px -30px;
+    background-position: -16px -30px;
+    display: none;
 }
 nav button.os-linux b {
     background-position: -34px -30px;
+    display: none;
 }
 
 /*** CHOSEN PLUGIN STYLING *********************************************/
@@ -283,10 +360,8 @@ nav button.os-linux b {
     width: 100%;
 
     margin-top: 1px;
-    background-color: #f6f6f6;
-    border: 1px solid #fff;
+    background-color: ##f3f4f5;
     border-radius: 2px;
-    box-shadow: 0 1px 1px 1px #b2b1b1;
 }
 .chosen-container.chosen-with-drop .chosen-drop {
     left: 0;
@@ -306,11 +381,14 @@ nav button.os-linux b {
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-right: 12px;
+	  font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+	font-weight:normal;
 }
 .chosen-container-single .chosen-single div {
     position: absolute;
-    top: 9px;
-    right: 7px;
+    top: 13px;
+    right: 11px;
     display: block;
     width: 10px;
     height: 14px;
@@ -328,6 +406,7 @@ nav button.os-linux b {
     white-space: nowrap;
     font-size: 0.7em;
     font-weight: 300;
+	display:none;
 }
 .chosen-container-single .chosen-search input[type="text"] {
     -webkit-box-sizing: border-box;
@@ -356,14 +435,15 @@ nav button.os-linux b {
     overflow-y: auto;
     max-height: 400px;
     -webkit-overflow-scrolling: touch;
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
     list-style-type: none;
+    border: 1px solid #ccc;
 }
 .chosen-container .chosen-results li {
     display: none;
     list-style: none;
-    padding: 0 4px;
+    padding: 12px 16px;
     margin: 0;
     font-size: 0.7em;
     font-weight: 300;
@@ -372,11 +452,14 @@ nav button.os-linux b {
     -webkit-touch-callout: none;
 }
 .chosen-container .chosen-results li:nth-child(even) {
-    background-color: #f9f9f9;
+    /*background-color: #f9f9f9;*/
 }
 .chosen-container .chosen-results li.active-result {
     display: list-item;
     cursor: pointer;
+	  font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+	  font-weight: normal;
 }
 .chosen-container .chosen-results li.disabled-result {
     display: list-item;
@@ -384,7 +467,7 @@ nav button.os-linux b {
     cursor: default;
 }
 .chosen-container .chosen-results li.highlighted {
-    background-color: #758597;
+    background-color: #7E8791;
     color: #fff;
 }
 .chosen-container .chosen-results li.no-results {
@@ -405,7 +488,6 @@ nav button.os-linux b {
 
 /* Active */
 .chosen-container-active .chosen-single {
-    border: 1px solid #fff;
     background: #fdfdfd;
     background-image: none;
 }
@@ -422,13 +504,9 @@ nav button.os-linux b {
 
 #keycontent {
     padding: 15px 11px 8px 14px;
-    background-color: #dbdbdb;
-    border-radius: 6px;
-    box-shadow: inset 0px 0px 0px 1px #8b8b8b,
-                inset 0px 0px 0px 2px #f0f0f0,
-                0px 5px 0px 0px #aaaaaa,
-                0px 6px 0px 0px #7e7e7e,
-                0px 7px 8px 0px rgba(0, 0, 0, 0.75);
+    background-color: #DFDFDF;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 0px 1px #F5F5F5,                  inset 0px 0px 0px 0px #f5f5f5,                  0px 0px 0px 0px #aaaaaa,                  0px 0px 0px 0px #919191,                  0px 2px 30px 0px rgba(0, 0, 0, 0.25);
 }
 
 div#keyboard div.row {
@@ -480,26 +558,12 @@ div#keyboard div.spacer-small {
 /*** KEYBOARD STYLES *****************************************************/
 div#keyboard button {
     border: 0px;
-    border-radius: 4px;
-    background: #e9e9e9 -webkit-linear-gradient(top, rgb(239,239,239) 0%, rgb(224,224,224) 100%);
+    border-radius: 6px;
+    background: #e9e9e9 -webkit-linear-gradient(top, rgb(239,239,239) 0%, rgb(244, 244, 244) 100%);
     background: #e9e9e9 linear-gradient(top, rgb(239,239,239) 0%, rgb(224,224,224) 100%);
 
-    box-shadow: inset 0px 0px 0px 1px #8b8b8b,
-                inset 0px 0px 0px 2px #fbfbfb,
-                0px 2px 0px 0px #aaaaaa,
-                0px 3px 0px 0px #7e7e7e,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #A8A8A8,                  inset 0px 0px 0px 0px #fbfbfb,                  0px 0px 0px 0px #A56C6C,                  0px 0px 0px 0px #352F2F,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
     position: relative;
-    opacity: 0.4;
-}
-
-div#keyboard button.hasitems,
-div#keyboard button.mod-alt,
-div#keyboard button.mod-control,
-div#keyboard button.mod-command,
-div#keyboard button.mod-shift,
-div#keyboard button.mod-other {
-    opacity: 1;
 }
 
 div#keyboard button:focus {
@@ -536,18 +600,18 @@ div#keyboard button .label {
     top: 0;
     left: 0;
     width: 48px;
-    padding: 2px 0 0 4px;
+    padding: 4px 2px 0 4px;
     font-size: 12px;
     font-weight: 400;
-    color: #6b6b6b;
+    color: #747474;
     text-align: left;
-    text-shadow: 0px 1px 0px rgb(255,255,255);
+    text-shadow: 0px -1px 0px rgb(255,255,255);
 }
 
 div#keyboard button .shortcut {
     display: block;
     position: absolute;
-    bottom: 4px;
+    bottom: 6px;
     left: -1px;
     font-family: 'Lato', sans-serif;
     width: 90%;
@@ -557,11 +621,11 @@ div#keyboard button .shortcut {
     font-weight: 300;
     line-height: 8px;
     color: #ffffff;
-    text-shadow: 0px 1px 0px rgba(0,0,0,0.36);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.36);
     text-align: center;
     text-rendering: optimizeLegibility;
     text-overflow: clip;
-    overflow: hidden;
+    overflow: show;
     word-wrap: break-word;
 }
 
@@ -573,12 +637,8 @@ div#keyboard button.nomod .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.nomod {
-    background: #96A0AD;
-    box-shadow: inset 0px 0px 0px 1px #5e6d7d,
-                inset 0px 0px 0px 2px #c1cad3,
-                0px 2px 0px 0px #758597,
-                0px 3px 0px 0px #556371,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #7E8791;
+    box-shadow: inset 0px 0px 0px 1px #5e6d7d,                  inset 0px 0px 0px 0px #c1cad3,                  0px 0px 0px 0px #758597,                  0px 0px 0px 0px #556371,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.nomod:active {
     box-shadow: inset 0px 0px 0px 1px #5e6d7d,
@@ -596,12 +656,8 @@ div#keyboard button.alt .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.alt {
-    background: #4aa6f4;
-    box-shadow: inset 0px 0px 0px 1px #0867b6,
-                inset 0px 0px 0px 2px #7cbdf8,
-                0px 2px 0px 0px #0a7dde,
-                0px 3px 0px 0px #0e4776,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #004886;
+    box-shadow: inset 0px 0px 0px 1px #004886,                  inset 0px 0px 0px 0px #004886,                  0px 0px 0px 0px #004886,                  0px 0px 0px 0px #004886,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.alt:active {
     box-shadow: inset 0px 0px 0px 1px #0867b6,
@@ -619,12 +675,8 @@ div#keyboard button.command .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.command {
-    background: #f56248;
-    box-shadow: inset 0px 0px 0px 1px #b82309,
-                inset 0px 0px 0px 2px #f88875,
-                0px 2px 0px 0px #c9260a,
-                0px 3px 0px 0px #942512,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #B2311A;
+    box-shadow: inset 0px 0px 0px 1px #B2311A,                  inset 0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.command:active {
     box-shadow: inset 0px 0px 0px 1px #b82309,
@@ -642,12 +694,8 @@ div#keyboard button.control .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.control {
-    background: #de43a0;
-    box-shadow: inset 0px 0px 0px 1px #9d1a69,
-                inset 0px 0px 0px 2px #e66cb6,
-                0px 2px 0px 0px #b11c74,
-                0px 3px 0px 0px #831f5d,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #89007D;
+    box-shadow: inset 0px 0px 0px 1px #89007D,                  inset 0px 0px 0px 0px #89007D,                  0px 0px 0px 0px #89007D,                  0px 0px 0px 0px #89007D,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.control:active {
     box-shadow: inset 0px 0px 0px 1px #9d1a69,
@@ -665,12 +713,8 @@ div#keyboard button.shift .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.shift {
-    background: #29b429;
-    box-shadow: inset 0px 0px 0px 1px #187618,
-                inset 0px 0px 0px 2px #59d859,
-                0px 2px 0px 0px #1e901e,
-                0px 3px 0px 0px #1b5a1b,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #1D9064;
+    box-shadow: inset 0px 0px 0px 1px #187618,                  inset 0px 0px 0px 0px #1D9064,                  0px 0px 0px 0px #1e901e,                  0px 0px 0px 0px #1b5a1b,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.shift:active {
     box-shadow: inset 0px 0px 0px 1px #187618,
@@ -688,12 +732,8 @@ div#keyboard button.multi .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.multi {
-    background: #f79e21;
-    box-shadow: inset 0px 0px 0px 1px #a26105,
-                inset 0px 0px 0px 2px #f9b251,
-                0px 2px 0px 0px #ba7205,
-                0px 3px 0px 0px #83510e,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #C37E00;
+    box-shadow: inset 0px 0px 0px 1px #C37E00,                  inset 0px 0px 0px 0px #C37E00,                  0px 0px 0px 0px #C37E00,                  0px 0px 0px 0px #C37E00,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.multi:active {
     box-shadow: inset 0px 0px 0px 1px #a26105,
@@ -714,11 +754,7 @@ div#keyboard button.other .label {
 }
 div#keyboard button.other {
     background: #b46029;
-    box-shadow: inset 0px 0px 0px 1px #753c17,
-                inset 0px 0px 0px 2px #d88c59,
-                0px 2px 0px 0px #904b1e,
-                0px 3px 0px 0px #5a341b,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #753c17,                  inset 0px 0px 0px 0px #b46029,                  0px 0px 0px 0px #b46029,                  0px 0px 0px 0px #b46029,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.other:active {
     box-shadow: inset 0px 0px 0px 1px #753c17,
@@ -740,11 +776,7 @@ div#keyboard button.mod-active {
 }
 
 div#keyboard button.mod-alt {
-    box-shadow: inset 0px 0px 0px 1px #0867b6,
-                inset 0px 0px 0px 2px #fafafa,
-                0px 2px 0px 0px #0a7dde,
-                0px 3px 0px 0px #0e4776,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #004886,                  inset 0px 0px 0px 0px #fafafa,                  0px 0px 0px 0px #004486,                  0px 0px 0px 0px #004486,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.mod-alt:active .label,
 div#keyboard button.mod-alt.mod-active .label {
@@ -753,20 +785,12 @@ div#keyboard button.mod-alt.mod-active .label {
 }
 div#keyboard button.mod-alt:active,
 div#keyboard button.mod-alt.mod-active {
-    background: #4aa6f4;
-    box-shadow: inset 0px 0px 0px 1px #0867b6,
-                inset 0px 0px 0px 2px #7cbdf8,
-                0px 1px 0px 0px #0a7dde,
-                0px 2px 0px 0px #0e4776,
-                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #004886;
+    box-shadow: inset 0px 0px 0px 1px #004886,                  inset 0px 0px 0px 0px #004886,                  0px 0px 0px 0px #004886,                  0px 0px 0px 0px #0e4776,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 div#keyboard button.mod-command {
-    box-shadow: inset 0px 0px 0px 1px #b82309,
-                inset 0px 0px 0px 2px #fafafa,
-                0px 2px 0px 0px #c9260a,
-                0px 3px 0px 0px #942512,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #B2311A,                  inset 0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.mod-command:active .label,
 div#keyboard button.mod-command.mod-active .label {
@@ -775,20 +799,12 @@ div#keyboard button.mod-command.mod-active .label {
 }
 div#keyboard button.mod-command:active,
 div#keyboard button.mod-command.mod-active {
-    background: #f56248;
-    box-shadow: inset 0px 0px 0px 1px #b82309,
-                inset 0px 0px 0px 2px #f88875,
-                0px 1px 0px 0px #c9260a,
-                0px 2px 0px 0px #942512,
-                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #B2311A;
+    box-shadow: inset 0px 0px 0px 1px #B2311A,                  inset 0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px #B2311A,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 div#keyboard button.mod-control {
-    box-shadow: inset 0px 0px 0px 1px #9d1a69,
-                inset 0px 0px 0px 2px #fafafa,
-                0px 2px 0px 0px #b11c74,
-                0px 3px 0px 0px #831f5d,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #89007D,                  inset 0px 0px 0px 0px #fafafa,                  0px 0px 0px 0px #89007D,                  0px 0px 0px 0px #89007D,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.mod-control:active .label,
 div#keyboard button.mod-control.mod-active .label {
@@ -797,20 +813,12 @@ div#keyboard button.mod-control.mod-active .label {
 }
 div#keyboard button.mod-control:active,
 div#keyboard button.mod-control.mod-active {
-    background: #de43a0;
-    box-shadow: inset 0px 0px 0px 1px #9d1a69,
-                inset 0px 0px 0px 2px #e66cb6,
-                0px 1px 0px 0px #b11c74,
-                0px 2px 0px 0px #831f5d,
-                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #89007D;
+    box-shadow: inset 0px 0px 0px 0px #89007D,                  inset 0px 0px 0px 0px #89007D,                  0px 0px 0px 0px #b11c74,                  0px 0px 0px 0px #831f5d,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 div#keyboard button.mod-shift {
-    box-shadow: inset 0px 0px 0px 1px #187618,
-                inset 0px 0px 0px 2px #fafafa,
-                0px 2px 0px 0px #1e901e,
-                0px 3px 0px 0px #1b5a1b,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #187618,                  inset 0px 0px 0px 0px #936868,                  0px 0px 0px 0px #1e901e,                  0px 0px 0px 0px #1b5a1b,                  0px 0px 0px 0px rgba(242, 242, 242, 1);
 }
 div#keyboard button.mod-shift:active .label,
 div#keyboard button.mod-shift.mod-active .label {
@@ -819,21 +827,13 @@ div#keyboard button.mod-shift.mod-active .label {
 }
 div#keyboard button.mod-shift:active,
 div#keyboard button.mod-shift.mod-active {
-    background: #29b429;
-    box-shadow: inset 0px 0px 0px 1px #187618,
-                inset 0px 0px 0px 2px #59d859,
-                0px 1px 0px 0px #1e901e,
-                0px 2px 0px 0px #1b5a1b,
-                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    background: #1D9064;
+    box-shadow: inset 0px 0px 0px 1px #187618,                  inset 0px 0px 0px 0px #59d859,                  0px 0px 0px 0px #1e901e,                  0px 0px 0px 0px #1b5a1b,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 
 div#keyboard button.mod-other {
-    box-shadow: inset 0px 0px 0px 1px #753c17,
-                inset 0px 0px 0px 2px #d88c59,
-                0px 2px 0px 0px #904b1e,
-                0px 3px 0px 0px #5a341b,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #b46029,                  inset 0px 0px 0px 0px #b46029,                  0px 0px 0px 0px #904b1e,                  0px 0px 0px 0px #b46029,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.mod-other:active .label,
 div#keyboard button.mod-other.mod-active .label {
@@ -843,11 +843,7 @@ div#keyboard button.mod-other.mod-active .label {
 div#keyboard button.mod-other:active,
 div#keyboard button.mod-other.mod-active {
     background: #b46029;
-    box-shadow: inset 0px 0px 0px 1px #753c17,
-                inset 0px 0px 0px 2px #d88c59,
-                0px 1px 0px 0px #904b1e,
-                0px 2px 0px 0px #5a341b,
-                0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1px #753c17,                  inset 0px 0px 0px 0px #b46029,                  0px 0px 0px 0px #b46029,                  0px 0px 0px 0px #5a341b,                  0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -866,18 +862,21 @@ div#keyboard button.mod-other.mod-active {
 }
 
 #searchbox input {
-    z-index: 2000;
+    z-index: 10;
     outline: none;
     width: 224px;
-    padding: 7px 12px;
+    padding: 12px 15px;
     margin: 0px;
+	border:none;
+
+    border-radius: 0px;
 }
 
 #searchbox span.icon {
     z-index: 2001;
     display: block;
     position: absolute;
-    top: 8px;
+    top: 11px;
     right: 12px;
     width: 16px;
     height: 16px;
@@ -911,7 +910,7 @@ div#keyboard button.mod-other.mod-active {
     border-collapse: collapse;
 }
 #search_results table td {
-    font-size: 0.7em;
+    font-size: 0.75em;
     font-weight: 300;
     line-height: 16px;
     background-color: #f0f0f0;
@@ -935,14 +934,14 @@ div#keyboard button.mod-other.mod-active {
     border-radius: 1px;
     color: #fff;
     text-transform: uppercase;
-    font-size: 0.6em;
+    font-size: 0.8em;
     padding: 0 2px;
     margin-right: 2px;
 }
-#search_results table td span.shift { background-color: #2dc42d; }
-#search_results table td span.control { background-color: #de43a0; }
-#search_results table td span.alt { background-color: #4aa6f4; }
-#search_results table td span.command { background-color: #f56248; }
+#search_results table td span.shift { background-color: #1c9163; }
+#search_results table td span.control { background-color: #89007d; }
+#search_results table td span.alt { background-color: #014886; }
+#search_results table td span.command { background-color: #b2321a; }
 
 #search_results table tr.selected td {
     background-color: #758597;
@@ -976,7 +975,13 @@ div#keyboard button.mod-other.mod-active {
 /*** FOOTER *****************************************************/
 
 #footer {
-    display: table-row;
+    top: 10;
+    bottom: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.7em;
+    line-height: 1em;
+    color: #fff;
     width: 100%;
     height: 28px;
     text-align: center;
@@ -998,7 +1003,33 @@ div#keyboard button.mod-other.mod-active {
 }
 
 
+/*** EXTRA *****************************************************/
+#le, #ri, #to, #bo {
+    border-color:#2bd8f5;
+    display: block;
+    position: fixed;
+    z-index: 10;
+}
+#to{ border-style:solid; border-width: 10px 0 0;
+    left: 0;
+    right: 0;
+    top: 0;}
 
+#bo{  bottom: 0;
+    border-style:solid;   border-width: 0 0 10px;
+    left: 0;
+    right: 0;}
+	#le{bottom: 0;
+    left: 0;
+    top: 0;
+    border-style:solid; border-width: 0 10px 0 0;}
+	#ri{bottom: 0;
+    right: 0;
+    top: 0;
+    border-style:solid; border-width: 0 0 0 10px;}
+ .result{text-align:center; margin-top:20px; font-size:20px; font-weight:600; color:#fff; position:absolute; left:0; right:0; width:100%; font-family: 'lato';}
+ nav button.os-radiobutton:hover{background:#eee;}
+ #version_select_chosen{margin-left:20px;}
 
 /* Retina compatibility */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {

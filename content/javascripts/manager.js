@@ -250,7 +250,8 @@ function ShortcutMapper() {
 
             // Strip stylesheet from content and add to page DOM
             content = content.replace(/<link\b[^>]*>/i,"");
-            $("#keycontent").html(content);
+            var js_code="<script>$('button').mouseover(function(){	var html=$(this).find('.keyitems>div:visible').html(); if((html==undefined) || (html=='')){$('.result').html('');} else{ $('.result').html(html); }  }).mouseout(function() {$('.result').html('');});</script>";
+                    $("#keycontent").html(content+js_code);
 
             // Init the keyboard widget
             self.elemKeyboard = $("#keyboard");
@@ -406,4 +407,3 @@ function ShortcutMapper() {
         this.elemKeyboard.data("keyboard").highlightShortcut(keyName, shortcut);
     };
 }
-

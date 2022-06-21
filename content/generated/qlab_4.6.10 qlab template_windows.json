@@ -40,10 +40,10 @@
                 {"name":"Set cue color none", "mods":["SHIFT"]}
             ],
             "C" : [
-                {"name":"Copy Style", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Copy Style", "mods":["ALT", "COMMAND"]},
                 {"name":"Copy", "mods":["COMMAND"]},
                 {"name":"Cycle Cue Continue Mode", "mods":[]},
-                {"name":"Show Colors", "mods":["COMMAND", "CONTROL", "SHIFT"]},
+                {"name":"Show Colors", "mods":["ALT", "COMMAND", "SHIFT"]},
                 {"name":"View 'Macros Cart'", "mods":["CONTROL"]}
             ],
             "CARET" : [
@@ -79,9 +79,6 @@
             "EIGHT" : [
                 {"name":"Network", "mods":["COMMAND"]}
             ],
-            "EQUAL" : [
-                {"name":"Move Playhead To Next Sequence", "mods":[]}
-            ],
             "ESCAPE" : [
                 {"name":"Hard Stop All", "mods":["ESCAPE"]},
                 {"name":"Panic All", "mods":[]}
@@ -114,7 +111,7 @@
                 {"name":"Set cue color green", "mods":["SHIFT"]}
             ],
             "H" : [
-                {"name":"Hide Others", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Hide Others", "mods":["ALT", "COMMAND"]},
                 {"name":"Hide QLab", "mods":["COMMAND"]}
             ],
             "HASH" : [
@@ -129,7 +126,7 @@
             ],
             "J" : [
                 {"name":"Jump to cue", "mods":["COMMAND"]},
-                {"name":"Jump to selected cue‚Äôs target", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Jump to selected cue's target", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Mark cue/GoTo mark", "mods":[]}
             ],
             "K" : [
@@ -146,7 +143,7 @@
             ],
             "LEFT_ARROW" : [
                 {"name":"Nudge -0.01 in Timeline view", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Nudge -0.1 in Timeline view", "mods":["CONTROL"]},
+                {"name":"Nudge -0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Previous Tab", "mods":["COMMAND"]}
             ],
             "LEFT_BRACKET" : [
@@ -164,7 +161,8 @@
                 {"name":"View 'Main Cue List'", "mods":["CONTROL"]}
             ],
             "MINUS" : [
-                {"name":"Move Playhead To Previous Sequence", "mods":[]}
+                {"name":"Zoom out horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom out vertically", "mods":["COMMAND", "SHIFT"]}
             ],
             "MORETHAN" : [
                 {"name":"Expand all Group cues", "mods":["SHIFT"]}
@@ -186,9 +184,6 @@
             "NUMPAD_EIGHT" : [
                 {"name":"Network", "mods":["COMMAND"]}
             ],
-            "NUMPAD_EQUAL" : [
-                {"name":"Move Playhead To Next Sequence", "mods":[]}
-            ],
             "NUMPAD_FIVE" : [
                 {"name":"Post Wait -1s", "mods":["CONTROL"]},
                 {"name":"Text", "mods":["COMMAND"]}
@@ -196,9 +191,6 @@
             "NUMPAD_FOUR" : [
                 {"name":"Camera", "mods":["COMMAND"]},
                 {"name":"Duration +1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_MINUS" : [
-                {"name":"Move Playhead To Previous Sequence", "mods":[]}
             ],
             "NUMPAD_NINE" : [
                 {"name":"MIDI", "mods":["COMMAND"]}
@@ -253,6 +245,10 @@
             "PERIOD" : [
                 {"name":"Nudge +5s", "mods":["CONTROL"]}
             ],
+            "PLUS" : [
+                {"name":"Zoom in horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom in vertically", "mods":["COMMAND", "SHIFT"]}
+            ],
             "POUND" : [
                 {"name":"Duration -0.1s", "mods":["ALT", "CONTROL", "SHIFT"]}
             ],
@@ -272,7 +268,7 @@
             ],
             "RIGHT_ARROW" : [
                 {"name":"Nudge +0.01 in Timeline view", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Nudge +0.1 in Timeline view", "mods":["CONTROL"]},
+                {"name":"Nudge +0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Next Tab", "mods":["COMMAND"]}
             ],
             "RIGHT_BRACE" : [
@@ -310,7 +306,7 @@
                 {"name":"Edit Cue Target", "mods":[]},
                 {"name":"Load to time", "mods":["COMMAND"]},
                 {"name":"Set Audio Levels From Target", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Show Fonts", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+                {"name":"Show Fonts", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "THREE" : [
                 {"name":"Duration -1s", "mods":["CONTROL"]},
@@ -331,11 +327,11 @@
             "V" : [
                 {"name":"Instant preview", "mods":["CONTROL"]},
                 {"name":"Paste Cue Properties", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Paste Style", "mods":["COMMAND", "CONTROL"]},
-                {"name":"Paste and Match Style", "mods":["COMMAND", "CONTROL", "SHIFT"]},
+                {"name":"Paste Style", "mods":["ALT", "COMMAND"]},
+                {"name":"Paste and Match Style", "mods":["ALT", "COMMAND", "SHIFT"]},
                 {"name":"Paste", "mods":["COMMAND"]},
                 {"name":"Preview (play action only)", "mods":[]},
-                {"name":"Set Video Geometry From Target", "mods":["COMMAND", "CONTROL"]}
+                {"name":"Set Video Geometry From Target", "mods":["ALT", "COMMAND", "CONTROL"]}
             ],
             "W" : [
                 {"name":"Close", "mods":["COMMAND"]},
@@ -601,10 +597,10 @@
                 {"name":"Delete", "mods":["COMMAND"]}
             ],
             "C" : [
-                {"name":"Copy Style", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Copy Style", "mods":["ALT", "COMMAND"]},
                 {"name":"Copy", "mods":["COMMAND"]},
                 {"name":"Cycle Cue Continue Mode", "mods":[]},
-                {"name":"Show Colors", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+                {"name":"Show Colors", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "COMMA" : [
                 {"name":"Workspace Settings", "mods":["COMMAND"]}
@@ -619,9 +615,6 @@
             ],
             "EIGHT" : [
                 {"name":"Network", "mods":["COMMAND"]}
-            ],
-            "EQUAL" : [
-                {"name":"Move Playhead To Next Sequence", "mods":[]}
             ],
             "ESCAPE" : [
                 {"name":"Hard Stop All", "mods":["ESCAPE"]},
@@ -642,7 +635,7 @@
                 {"name":"Find Previous", "mods":["COMMAND", "SHIFT"]}
             ],
             "H" : [
-                {"name":"Hide Others", "mods":["COMMAND", "CONTROL"]},
+                {"name":"Hide Others", "mods":["ALT", "COMMAND"]},
                 {"name":"Hide QLab", "mods":["COMMAND"]}
             ],
             "I" : [
@@ -652,7 +645,7 @@
             ],
             "J" : [
                 {"name":"Jump to cue", "mods":["COMMAND"]},
-                {"name":"Jump to selected cue‚Äôs target", "mods":["COMMAND", "SHIFT"]}
+                {"name":"Jump to selected cue's target", "mods":["COMMAND", "SHIFT"]}
             ],
             "K" : [
                 {"name":"Toolbox", "mods":["COMMAND"]}
@@ -664,7 +657,7 @@
             ],
             "LEFT_ARROW" : [
                 {"name":"Nudge -0.01 in Timeline view", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Nudge -0.1 in Timeline view", "mods":["CONTROL"]},
+                {"name":"Nudge -0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Previous Tab", "mods":["COMMAND"]}
             ],
             "LEFT_BRACKET" : [
@@ -679,7 +672,8 @@
                 {"name":"Minimize", "mods":["COMMAND"]}
             ],
             "MINUS" : [
-                {"name":"Move Playhead To Previous Sequence", "mods":[]}
+                {"name":"Zoom out horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom out vertically", "mods":["COMMAND", "SHIFT"]}
             ],
             "MORETHAN" : [
                 {"name":"Expand all Group cues", "mods":["SHIFT"]}
@@ -695,17 +689,11 @@
             "NUMPAD_EIGHT" : [
                 {"name":"Network", "mods":["COMMAND"]}
             ],
-            "NUMPAD_EQUAL" : [
-                {"name":"Move Playhead To Next Sequence", "mods":[]}
-            ],
             "NUMPAD_FIVE" : [
                 {"name":"Text", "mods":["COMMAND"]}
             ],
             "NUMPAD_FOUR" : [
                 {"name":"Camera", "mods":["COMMAND"]}
-            ],
-            "NUMPAD_MINUS" : [
-                {"name":"Move Playhead To Previous Sequence", "mods":[]}
             ],
             "NUMPAD_NINE" : [
                 {"name":"MIDI", "mods":["COMMAND"]}
@@ -741,6 +729,10 @@
                 {"name":"Pause/Resume Selected Cues", "mods":[]},
                 {"name":"Turn on/off live fade preview", "mods":["COMMAND", "SHIFT"]}
             ],
+            "PLUS" : [
+                {"name":"Zoom in horizontally", "mods":["COMMAND"]},
+                {"name":"Zoom in vertically", "mods":["COMMAND", "SHIFT"]}
+            ],
             "Q" : [
                 {"name":"Edit Cue Name", "mods":[]},
                 {"name":"Quit QLab", "mods":["COMMAND"]}
@@ -751,7 +743,7 @@
             ],
             "RIGHT_ARROW" : [
                 {"name":"Nudge +0.01 in Timeline view", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Nudge +0.1 in Timeline view", "mods":["CONTROL"]},
+                {"name":"Nudge +0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Next Tab", "mods":["COMMAND"]}
             ],
             "RIGHT_BRACKET" : [
@@ -776,7 +768,7 @@
                 {"name":"Edit Cue Target", "mods":[]},
                 {"name":"Load to time", "mods":["COMMAND"]},
                 {"name":"Set Audio Levels From Target", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Show Fonts", "mods":["COMMAND", "CONTROL", "SHIFT"]}
+                {"name":"Show Fonts", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "THREE" : [
                 {"name":"Video", "mods":["COMMAND"]}
@@ -790,10 +782,10 @@
             ],
             "V" : [
                 {"name":"Paste Cue Properties", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Paste Style", "mods":["COMMAND", "CONTROL"]},
-                {"name":"Paste and Match Style", "mods":["COMMAND", "CONTROL", "SHIFT"]},
+                {"name":"Paste Style", "mods":["ALT", "COMMAND"]},
+                {"name":"Paste and Match Style", "mods":["ALT", "COMMAND", "SHIFT"]},
                 {"name":"Paste", "mods":["COMMAND"]},
-                {"name":"Set Video Geometry From Target", "mods":["COMMAND", "CONTROL"]}
+                {"name":"Set Video Geometry From Target", "mods":["ALT", "COMMAND", "CONTROL"]}
             ],
             "W" : [
                 {"name":"Close", "mods":["COMMAND"]},

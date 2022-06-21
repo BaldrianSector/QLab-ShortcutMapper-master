@@ -3,12 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=1280, initial-scale=1.0">
-    <meta name="description" content="A visual shortcuts explorer for QLab.">
+    <meta name="description" content="A visual shortcut explorer for QLab.">
     <meta name="author" content="Baldrian Sector">
-    <meta property="og:image" content="content/images/screenshot.jpg" />
     <link rel="shortcut icon" href="content/images/favicon.ico">
 
-    <title>ShortcutMapper - Keyboard Shortcuts for QLab</title>
+    <title>Tidy Workspace Shortcut Mapper</title>
 
     <link href="content/stylesheets/style.css" rel="stylesheet">
 
@@ -28,22 +27,13 @@
         shortcutMapper.init();
     })
     </script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-50851062-1', 'waldobronchart.github.io');
-        ga('send', 'pageview');
-    </script>
 </head>
 
 <body>
     <div id="mainwrap">
         <header>
-            <h1>QLab Shortcut Mapper</h1>
-            <p>A visual shortcuts explorer for QLab.</p>
+            <h1>Tidy Workspace Shortcut Mapper</h1>
+            <p class="lower">A visual shortcut explorer for <a href="https://qlab.app/"><u>QLab,</u></a> brought to you by <a href="https://tidywork.space/"><u>Tidywork.space</u></a></p>
 
             <nav>
                 <div class="inputgroup">
@@ -77,16 +67,17 @@
                             <input id="searchfield" name="searchfield" placeholder="Search for shortcuts..." />
                             <span class="icon"></span>
                             <div id="search_results"></div>
+                            <div class="result"></div>
                         </div>
+                        <div id="mousecontent"></div>
                     </div>
-                    <div id="mousecontent"></div>
                 </div>
             </div>
         </div>
         <div id="search_blurdetect"></div>
 
-        <div id="footer">
-        </div>
+        <div id="footer">Figure 53® and QLab® are registered trademarks of Figure 53, LLC.<br>Tidy Workspace is not affiliated with Figure 53, LLC and this website has not been reviewed nor is it approved by Figure 53, LLC
+      </div>
     </div>
 </body>
 </html>
