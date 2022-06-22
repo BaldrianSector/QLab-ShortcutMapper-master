@@ -34,6 +34,8 @@ index.html       Main site page
 
 # Contributing
 
+If you are looking to help out with the development of this project, please feel free to reach out. 
+
 ## Running locally
 
 Before opening pull requests to contribute, you should test your changes locally.
