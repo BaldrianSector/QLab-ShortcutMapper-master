@@ -29,7 +29,7 @@ body {
 
 #mainwrap {
     display: table;
-    height: 100%;
+    height: 800px;
     width: 100%;
 }
 
@@ -85,7 +85,7 @@ header p.lower  a{
     display: block;
     position: absolute;
     top:0;
-    right: 30px;
+    right: 20px;
     z-index: 10;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
 }
@@ -200,7 +200,7 @@ header p.lower  a{
     font-size: 12px;
 }
 #search {
-    position: absolute;
+    position: relative;
     left: 365px; /* = (contentwrap.width-550)/2; */
     width: 550px;
 }
@@ -890,7 +890,7 @@ div#keyboard button.mod-other.mod-active {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 2px;
-    margin-top: 1px;
+    margin-top: 12px;
     background-color: #f6f6f6;
     border: 1px solid #fff;
     border-radius: 2px;
@@ -977,9 +977,7 @@ div#keyboard button.mod-other.mod-active {
     line-height: 1em;
     color: #fff;
     width: 100%;
-    height: 80px;
     position: relative;
-    bottom: 0px; left: 0;
     text-align: center;
 }
 
@@ -1023,7 +1021,7 @@ div#keyboard button.mod-other.mod-active {
     top: 0;
     border-style:solid; border-width: 0 0 0 10px;}
 
- .result{text-align:center; margin-top:20px; font-size:20px; font-weight:600; color:#fff; position:absolute; left:0; right:0; width:100%; font-family: 'lato';}
+ .result{text-align:center; margin-top:20px; font-size:20px; font-weight:600; color:#fff; position:absolute; left:-50%; right:0; width:200%; font-family: 'lato';}
  nav button.os-radiobutton:hover{background:#eee;}
 
  #version_select_chosen{margin-left:20px;}

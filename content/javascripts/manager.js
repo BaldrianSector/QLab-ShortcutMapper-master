@@ -18,6 +18,14 @@ function ShortcutMapper() {
         shortcut: null
     };
 
+    // Convert mods in search result shortcut
+    const conversionTableMods = {
+          'alt': 'option',
+      }
+    // Convert keys in search result shortcut
+    const conversionTableKeys = {
+    }
+
     this.init = function () {
         var self = this,
             hash = window.location.hash;
@@ -331,6 +339,10 @@ function ShortcutMapper() {
                 continue;
             }
 
+                if (contextName === "All shortcuts") {
+                    continue;
+                }
+
             var context = self.selectedAppData.contexts[contextName];
             for (var keyName in context) {
                 if (!context.hasOwnProperty(keyName)) {
@@ -362,8 +374,10 @@ function ShortcutMapper() {
                         html += "<td>";
                         for (var m=0; m<shortcut.mods.length; m++) {
                             var mod = shortcut.mods[m].toLowerCase();
-                            html += "<span class='" + mod + "'>" + mod + "</span>";
+                            var modName = conversionTableMods[mod] || mod;
+                            html += "<span class='" + mod + "'>" + modName + "</span>";
                         }
+                        var keyName = conversionTableKeys[keyName] || keyName;
                         html += "<span>" + keyName + "</span></td>";
 
                         // Shortcut Name
