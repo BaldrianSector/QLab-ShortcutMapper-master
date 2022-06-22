@@ -137,11 +137,9 @@
                 {"name":"Nudge -0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Previous Tab", "mods":["COMMAND"]}
             ],
-            "LEFT_BRACE" : [
-                {"name":"Bump -5 dB", "mods":["CONTROL", "SHIFT"]}
-            ],
             "LEFT_BRACKET" : [
                 {"name":"Bump -1 dB", "mods":["CONTROL"]},
+                {"name":"Bump -5 dB", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Enter Edit Mode", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Pause All", "mods":[]}
             ],
@@ -276,11 +274,9 @@
                 {"name":"Nudge +0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Next Tab", "mods":["COMMAND"]}
             ],
-            "RIGHT_BRACE" : [
-                {"name":"Bump +5 dB", "mods":["CONTROL", "SHIFT"]}
-            ],
             "RIGHT_BRACKET" : [
                 {"name":"Bump +1 dB", "mods":["CONTROL"]},
+                {"name":"Bump +5 dB", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Enter Show Mode", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Resume All", "mods":[]}
             ],
@@ -457,11 +453,9 @@
                 {"name":"Load group to waveform time", "mods":["CONTROL"]},
                 {"name":"Open Light Library", "mods":["ALT", "CONTROL", "SHIFT"]}
             ],
-            "LEFT_BRACE" : [
-                {"name":"Bump -5 dB", "mods":["CONTROL", "SHIFT"]}
-            ],
             "LEFT_BRACKET" : [
                 {"name":"Bump -1 dB", "mods":["CONTROL"]},
+                {"name":"Bump -5 dB", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Pause All", "mods":[]}
             ],
             "LEFT_PARENTHESIS" : [
@@ -553,11 +547,9 @@
                 {"name":"Set cue color red", "mods":["CONTROL"]},
                 {"name":"Set/Change Rate", "mods":[]}
             ],
-            "RIGHT_BRACE" : [
-                {"name":"Bump +5 dB", "mods":["CONTROL", "SHIFT"]}
-            ],
             "RIGHT_BRACKET" : [
                 {"name":"Bump +1 dB", "mods":["CONTROL"]},
+                {"name":"Bump +5 dB", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Resume All", "mods":[]}
             ],
             "S" : [
