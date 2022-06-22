@@ -1,11 +1,11 @@
 Tidy Workspace Shortcut Mapper
 ==================
 
-This is a keyboard shortcut visualiser for [QLab](https://qlab.app/) hosted here on Github:
+This is a keyboard shortcut visualiser for [QLab](https://qlab.app/) hosted here:
 
-https://baldriansector.github.io/QLab-ShortcutMapper-master/
+https://tidywork.space/
 
-The project is built by [@BaldrianSector](https://www.facebook.com/baldriansector) for [Tidywork.space](https://tidywork.space) on [code by Waldo Bronchart](https://github.com/waldobronchart/ShortcutMapper).<br/>The Stylesheet is inspired by [FastPrint.co.uk](http://www.fastprint.co.uk/adobe-shortcut-mapper/) that can be found in the source code.
+The project is built by [@BaldrianSector](https://www.facebook.com/baldriansector) for [Tidywork.space](https://tidywork.space) on [code by Waldo Bronchart](https://github.com/waldobronchart/ShortcutMapper).<br/>The stylesheet is inspired by [FastPrint.co.uk](http://www.fastprint.co.uk/adobe-shortcut-mapper/).
 
 Tidy Workspace Shortcut Mapper is made to help get an overview of your QLab Tidy Workspace Template, explore new shortcuts and to help you get them into your workflow. There is also an integrated version of the Default Shortcuts.
 
