@@ -2,17 +2,18 @@ Tidy Workspace Shortcut Mapper
 ==================
 
 This is a keyboard shortcut visualiser for [QLab](https://qlab.app/) hosted here on Github:
+
 https://baldriansector.github.io/QLab-ShortcutMapper-master/
 
 The project is built for [Tidywork.space](https://tidywork.space) on [code by Waldo Bronchart](https://github.com/waldobronchart/ShortcutMapper)
 
-Tidy Workspace Shortcut Mapper is made to help get an overview of your QLab Tidy Workspace Template, expore new shortcuts and to help you get them into your workflow. There is also an integrated version of the Default Shortcuts.
+Tidy Workspace Shortcut Mapper is made to help get an overview of your QLab Tidy Workspace Template, explore new shortcuts and to help you get them into your workflow. There is also an integrated version of the Default Shortcuts.
 
 ## Updating Shortcuts
 
-I regularly update the shortcuts every time a new version of the Tidywork.space template is updated, but also to keep them up to date with the most recent QLab changes made by Figure53. However be aware that I am not affiliated with Figure53 and I don’t have any direct influence on changes, so updating might take time, depending on the situation.
+I regularly update the shortcuts every time a new version of the Tidywork.space template is updated, but also to keep them up to date with the most recent QLab changes made by Figure53. However, be aware that I am not affiliated with Figure53 and I don’t have any direct influence on changes, so updating might take time, depending on the situation.
 
-I do have an a script to extract shortcuts from QLab, but there are a lot of things to be aware of. Optimally every shortcut is checked manually, so it takes some time. I'm not ready to share the export script yet, so there is not currently a way to quickly set it up with a custom template. That being said, I hope to eventually upload a script here, so you can quickly generate your own set of shortcuts.
+I do have a script to extract shortcuts from QLab, but there are a lot of things to be aware of. Optimally every shortcut is checked manually, so it takes some time. I'm not ready to share the export script yet, so there is not currently a way to quickly set it up with a custom template. That being said, I hope to eventually upload a script here, so you can quickly generate your own set of shortcuts.
 
 # Overview
 
@@ -52,7 +53,7 @@ The easiest way to run locally is to run a simple http server:
 
 If you need more information, please check the [code by Waldo Bronchart](https://github.com/waldobronchart/ShortcutMapper)
 
-Regarding pull requests you'll create a branch like `feature/descriptive-feature-name` from the `master` branch and start working in that. Once you're done, you'll create a pull request that merges into the `dev` branch.
+Regarding pull requests, you'll create a branch like `feature/descriptive-feature-name` from the `master` branch and start working in that. Once you're done, you'll create a pull request that merges into the `dev` branch.
 This allows me to test your changes before it is published to the `master` branch.
 
 For bug fixes, you'll name your branch `fix/descriptive-bug-name`.
