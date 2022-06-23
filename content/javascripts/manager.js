@@ -24,6 +24,15 @@ function ShortcutMapper() {
       }
     // Convert keys in search result shortcut
     const conversionTableKeys = {
+          'EXCLAMATION': 'ONE',
+          'DOUBLE_QUOTE': 'TWO',
+          'HASH': 'THREE',
+          'EURO': 'FOUR',
+          'PERCENT': 'FIVE',
+          'AMPERSAND': 'SIX',
+          'SLASH': 'SEVEN',
+          'LEFT_PARENTHESIS': 'EIGHT',
+          'RIGHT_PARENTHESIS': 'NINE',
     }
 
     this.init = function () {

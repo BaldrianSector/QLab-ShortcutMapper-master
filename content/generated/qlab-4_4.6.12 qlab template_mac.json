@@ -329,12 +329,12 @@
                 {"name":"Select Previous Cue", "mods":["COMMAND"]}
             ],
             "V" : [
-                {"name":"Instant preview", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Instant preview", "mods":["CONTROL"]},
                 {"name":"Paste Cue Properties", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Paste Style", "mods":["ALT", "COMMAND"]},
                 {"name":"Paste and Match Style", "mods":["ALT", "COMMAND", "SHIFT"]},
                 {"name":"Paste", "mods":["COMMAND"]},
-                {"name":"Prepare fade preview", "mods":["CONTROL"]},
+                {"name":"Prepare fade preview", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Preview (play action only)", "mods":[]},
                 {"name":"Set Video Geometry From Target", "mods":["ALT", "COMMAND", "CONTROL"]}
             ],
@@ -364,7 +364,7 @@
                 {"name":"Level -inf", "mods":["CONTROL"]}
             ]
         },
-        "Customizable shortcuts" : {
+        "Customisable shortcuts" : {
             "A" : [
                 {"name":"Arm selected", "mods":["CONTROL"]},
                 {"name":"Toggle arming", "mods":[]},

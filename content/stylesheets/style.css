@@ -128,16 +128,15 @@ header p.lower  a{
 #banners li.github a .icon {
     background: url('../images/sprites.png') no-repeat 0 -47px;
 }
-#banners li.coin a {
+#banners li.notice a {
     border-bottom-right-radius: 2px;
-    background-color: #FFAD00;
-    padding-right: 25px;
+    background-color: #5f5f5f;
+    padding-right: 8px;
 }
-#banners li.coin a:hover {
-    background-color: #cc3406;
+#banners li.notice a:hover {
+    background-color: #414141;
 }
-#banners li.coin a .icon {
-    background: url('../images/sprites.png') no-repeat -24px -47px;
+#banners li.notice a .icon {
 }
 
 
@@ -993,7 +992,6 @@ div#keyboard button.mod-other.mod-active {
     color: #fff;
     text-decoration: underline;
 }
-
 
 /*** EXTRA *****************************************************/
 #le, #ri, #to, #bo {

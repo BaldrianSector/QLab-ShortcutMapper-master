@@ -385,7 +385,7 @@
                 {"name":"Level -inf", "mods":["CONTROL"]}
             ]
         },
-        "Customizable shortcuts" : {
+        "Customisable shortcuts" : {
             "A" : [
                 {"name":"Arm selected", "mods":["CONTROL"]},
                 {"name":"Toggle arming", "mods":[]},
