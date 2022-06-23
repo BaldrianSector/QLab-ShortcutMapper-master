@@ -36,7 +36,7 @@ class ShortcutContext(object):
         self.added_keycombos_lookup = []
         self.added_keycombo_to_shortcuts_lookup = {}
 
-    def add_shortcut(self, s, check_for_duplicates=True, explicit_numpad_mode=False):
+    def add_shortcut(self, s, check_for_duplicates=True, explicit_numpad_mode=True):
         log.debug("adding shortcut %s", self._get_shortcut_str(s))
 
         # Validate modifier names

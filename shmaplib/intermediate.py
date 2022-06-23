@@ -166,8 +166,8 @@ class IntermediateShortcutData(object):
             self.default_context = json_idata["default_context"]
             self.os = json_idata["os"]
 
-            for context_name, shortcuts in json_idata["contexts"].iteritems():
-                for shortcut_name, os_keys in shortcuts.iteritems():
+            for context_name, shortcuts in json_idata["contexts"].items():
+                for shortcut_name, os_keys in shortcuts.items():
                     self.add_shortcut(context_name, shortcut_name, os_keys[0], os_keys[1])
 
     def serialize(self, output_filepath):
@@ -309,7 +309,7 @@ class IntermediateDataExporter(object):
                 context_win = self.data_windows.get_or_create_new_context(context.name)
                 for shortcut in context.shortcuts:
                     for s in self._parse_shortcut(shortcut.name, shortcut.win_keys):
-                        context_win.add_shortcut(s, True, self.explicit_numpad_mode)
+                        context_win.add_shortcut(s, False, self.explicit_numpad_mode)
             log.info("...DONE\n")
 
         # MAC: Iterate contexts and shortcuts
@@ -319,7 +319,7 @@ class IntermediateDataExporter(object):
                 context_mac = self.data_mac.get_or_create_new_context(context.name)
                 for shortcut in context.shortcuts:
                     for s in self._parse_shortcut(shortcut.name, shortcut.mac_keys):
-                        context_mac.add_shortcut(s, True, self.explicit_numpad_mode)
+                        context_mac.add_shortcut(s, False, self.explicit_numpad_mode)
             log.info("...DONE\n")
 
     def export(self):

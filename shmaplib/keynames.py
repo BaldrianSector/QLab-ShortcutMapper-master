@@ -33,7 +33,7 @@ class DataContainer(object):
         u'?': ['QUESTION_MARK'],
         u'<': ['LESSTHAN'],
         u'>': ['MORETHAN'],
-        u',': ['COMMA'],
+        u',': ['COMMA', 'NUMPAD_COMMA'],
         u'`': ['ACCENT_GRAVE'],
         u'~': ['TILDE'],
         u'#': ['HASH'],

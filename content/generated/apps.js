@@ -8,9 +8,8 @@ var sitedata_apps = [
         data: {
             "4.6.12 QLab Template": {
                 "mac": "qlab-4_4.6.12 qlab template_mac.json",
-                "windows": "qlab-4_4.6.12 qlab template_windows.json",
             },
-            "4.6.12 QLab Default": {
+            "4.6.12 QLab Default Shortcuts": {
                 "mac": "qlab-4_4.6.12 qlab default shortcuts_mac.json",
                 "windows": "qlab-4_4.6.12 qlab default shortcuts_windows.json",
             },
