@@ -475,45 +475,6 @@
             "NINE" : [
                 {"name":"Level Default", "mods":["CONTROL"]}
             ],
-            "NUMPAD_EIGHT" : [
-                {"name":"LOOP last slice ON", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_FIVE" : [
-                {"name":"Post Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait -1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_FOUR" : [
-                {"name":"Duration +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration +1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_NINE" : [
-                {"name":"Level Default", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_ONE" : [
-                {"name":"Pre Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait -1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_PERIOD" : [
-                {"name":"Nudge +5s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_SEVEN" : [
-                {"name":"LOOP cue ON", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_SIX" : [
-                {"name":"Post Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait +1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_THREE" : [
-                {"name":"Duration -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration -1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_TWO" : [
-                {"name":"Pre Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait +1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_ZERO" : [
-                {"name":"Level -inf", "mods":["CONTROL"]}
-            ],
             "O" : [
                 {"name":"Clear notes formatting", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Create 10s fade out", "mods":["ALT", "SHIFT"]},
