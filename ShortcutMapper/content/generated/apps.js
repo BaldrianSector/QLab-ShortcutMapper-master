@@ -6,7 +6,7 @@ var sitedata_apps = [
     {
         name: "QLab 4",
         data: {
-            "4.6.12 QLab Template": {
+            "4.6.12 QLab Tidy Template v1.0": {
                 "mac": "qlab-4_4.6.12 qlab template_mac.json",
             },
             "4.6.12 QLab Default Shortcuts": {
