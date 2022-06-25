@@ -7,56 +7,28 @@
     "contexts" : {
         "All shortcuts" : {
             "A" : [
-                {"name":"Arm selected", "mods":["CONTROL"]},
                 {"name":"Audition Window", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Select All", "mods":["COMMAND"]},
-                {"name":"Toggle arming", "mods":[]},
-                {"name":"Unarm selected", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "AMPERSAND" : [
-                {"name":"Post Wait +5s", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Select All", "mods":["COMMAND"]}
             ],
             "B" : [
-                {"name":"Add selected to group if below one", "mods":[]},
-                {"name":"Batch adjust", "mods":["ALT", "CONTROL"]},
-                {"name":"Bundle Workspace", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Create 10s build", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s build", "mods":["ALT"]},
-                {"name":"Set cue color blue", "mods":["CONTROL"]},
                 {"name":"Warnings", "mods":["COMMAND"]}
             ],
             "BACKSPACE" : [
-                {"name":"Delete", "mods":["COMMAND"]},
-                {"name":"Revert Dashboard", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Set cue color none", "mods":["CONTROL"]}
+                {"name":"Delete", "mods":["COMMAND"]}
             ],
             "C" : [
-                {"name":"Check for Updates", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Clear Dashboard", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Copy Style", "mods":["ALT", "COMMAND"]},
                 {"name":"Copy", "mods":["COMMAND"]},
                 {"name":"Cycle Cue Continue Mode", "mods":[]},
-                {"name":"Cycle group mode", "mods":["CONTROL"]},
-                {"name":"Show Colors", "mods":["ALT", "COMMAND", "SHIFT"]},
-                {"name":"View 'Macros Cart'", "mods":["SHIFT"]}
-            ],
-            "COLON" : [
-                {"name":"Nudge +10s", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Show Colors", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "COMMA" : [
-                {"name":"Nudge -5s", "mods":["CONTROL"]},
                 {"name":"Workspace Settings", "mods":["COMMAND"]}
             ],
             "D" : [
-                {"name":"Create 10s dip", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s dip", "mods":["ALT"]},
                 {"name":"Delete numbers of selected cues", "mods":["COMMAND"]},
                 {"name":"Edit Cue Action Duration", "mods":[]},
-                {"name":"Light Dashboard", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Open DMX Status", "mods":["ALT", "CONTROL", "SHIFT"]}
-            ],
-            "DOUBLE_QUOTE" : [
-                {"name":"Pre Wait +5s", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Light Dashboard", "mods":["COMMAND", "SHIFT"]}
             ],
             "DOWN_ARROW" : [
                 {"name":"Move Playhead To Next Cue", "mods":["COMMAND", "SHIFT"]},
@@ -66,7 +38,6 @@
                 {"name":"Edit Cue Pre Wait Duration", "mods":[]}
             ],
             "EIGHT" : [
-                {"name":"LOOP last slice ON", "mods":["CONTROL"]},
                 {"name":"Network", "mods":["COMMAND"]}
             ],
             "EQUAL" : [
@@ -76,63 +47,40 @@
                 {"name":"Hard Stop All", "mods":["ESCAPE"]},
                 {"name":"Panic All", "mods":[]}
             ],
-            "EURO" : [
-                {"name":"Duration +5s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "EXCLAMATION" : [
-                {"name":"Pre Wait -5s", "mods":["CONTROL", "SHIFT"]}
-            ],
             "F" : [
                 {"name":"Enter/Exit Full Screen", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Find", "mods":["COMMAND"]},
                 {"name":"Toggle Cue Flag", "mods":[]}
             ],
             "FIVE" : [
-                {"name":"Post Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait -1s", "mods":["CONTROL"]},
                 {"name":"Text", "mods":["COMMAND"]}
             ],
             "FOUR" : [
-                {"name":"Camera", "mods":["COMMAND"]},
-                {"name":"Duration +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration +1s", "mods":["CONTROL"]}
+                {"name":"Camera", "mods":["COMMAND"]}
             ],
             "G" : [
                 {"name":"Find Next", "mods":["COMMAND"]},
-                {"name":"Find Previous", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Group selected cues", "mods":[]},
-                {"name":"Set cue color green", "mods":["CONTROL"]}
+                {"name":"Find Previous", "mods":["COMMAND", "SHIFT"]}
             ],
             "H" : [
                 {"name":"Hide Others", "mods":["ALT", "COMMAND"]},
                 {"name":"Hide QLab", "mods":["COMMAND"]}
             ],
-            "HASH" : [
-                {"name":"Duration -5s", "mods":["CONTROL", "SHIFT"]}
-            ],
             "I" : [
-                {"name":"Create 10s fade in", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s fade in", "mods":["ALT"]},
                 {"name":"Inspector for Selected Cue", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Inspector", "mods":["COMMAND"]},
                 {"name":"Set start time in waveform view", "mods":["SHIFT"]}
             ],
             "J" : [
                 {"name":"Jump to cue", "mods":["COMMAND"]},
-                {"name":"Jump to selected cue's target", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Mark cue(s)/GoTo mark", "mods":[]}
+                {"name":"Jump to selected cue's target", "mods":["COMMAND", "SHIFT"]}
             ],
             "K" : [
-                {"name":"Crash fade", "mods":["CONTROL"]},
-                {"name":"Force fade", "mods":[]},
-                {"name":"Force running fades", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Toolbox", "mods":["COMMAND"]}
             ],
             "L" : [
                 {"name":"Lists & Carts / Active Cues", "mods":["COMMAND"]},
                 {"name":"Load Selected Cue", "mods":[]},
-                {"name":"Load group to waveform time", "mods":["CONTROL"]},
-                {"name":"Open Light Library", "mods":["ALT", "CONTROL", "SHIFT"]},
                 {"name":"Toggle Lists & Carts / Active Cues", "mods":["COMMAND", "SHIFT"]}
             ],
             "LEFT_ARROW" : [
@@ -140,27 +88,16 @@
                 {"name":"Nudge -0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Previous Tab", "mods":["COMMAND"]}
             ],
-            "LEFT_BRACE" : [
-                {"name":"Bump -5 dB", "mods":["CONTROL", "SHIFT"]}
-            ],
             "LEFT_BRACKET" : [
-                {"name":"Bump -1 dB", "mods":["CONTROL"]},
                 {"name":"Enter Edit Mode", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Pause All", "mods":[]}
-            ],
-            "LEFT_PARENTHESIS" : [
-                {"name":"LOOP last slice OFF", "mods":["CONTROL", "SHIFT"]}
             ],
             "LESSTHAN" : [
                 {"name":"Collapse all Group cues", "mods":[]}
             ],
             "M" : [
                 {"name":"Add slice in waveform view", "mods":[]},
-                {"name":"Make MIDI cues", "mods":["ALT", "SHIFT"]},
-                {"name":"Make MONO", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Manage Your Licenses", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Minimize", "mods":["COMMAND"]},
-                {"name":"View 'Main Cue List'", "mods":["SHIFT"]}
+                {"name":"Minimize", "mods":["COMMAND"]}
             ],
             "MINUS" : [
                 {"name":"Move Playhead To Previous Sequence", "mods":[]}
@@ -169,35 +106,27 @@
                 {"name":"Expand all Group cues", "mods":["SHIFT"]}
             ],
             "N" : [
-                {"name":"Clear nested NUMBER", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Edit Cue Number", "mods":[]},
                 {"name":"New From Template", "mods":["COMMAND", "SHIFT"]},
                 {"name":"New Workspace", "mods":["COMMAND"]}
             ],
             "NINE" : [
-                {"name":"Level Default", "mods":["CONTROL"]},
                 {"name":"MIDI", "mods":["COMMAND"]}
             ],
             "NUMPAD_COMMA" : [
-                {"name":"Nudge -5s", "mods":["CONTROL"]},
                 {"name":"Workspace Settings", "mods":["COMMAND"]}
             ],
             "NUMPAD_EIGHT" : [
-                {"name":"LOOP last slice ON", "mods":["CONTROL"]},
                 {"name":"Network", "mods":["COMMAND"]}
             ],
             "NUMPAD_EQUAL" : [
                 {"name":"Move Playhead To Next Sequence", "mods":[]}
             ],
             "NUMPAD_FIVE" : [
-                {"name":"Post Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait -1s", "mods":["CONTROL"]},
                 {"name":"Text", "mods":["COMMAND"]}
             ],
             "NUMPAD_FOUR" : [
-                {"name":"Camera", "mods":["COMMAND"]},
-                {"name":"Duration +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration +1s", "mods":["CONTROL"]}
+                {"name":"Camera", "mods":["COMMAND"]}
             ],
             "NUMPAD_MINUS" : [
                 {"name":"Move Playhead To Previous Sequence", "mods":[]},
@@ -205,16 +134,10 @@
                 {"name":"Zoom out vertically", "mods":["COMMAND", "SHIFT"]}
             ],
             "NUMPAD_NINE" : [
-                {"name":"Level Default", "mods":["CONTROL"]},
                 {"name":"MIDI", "mods":["COMMAND"]}
             ],
             "NUMPAD_ONE" : [
-                {"name":"Audio", "mods":["COMMAND"]},
-                {"name":"Pre Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait -1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_PERIOD" : [
-                {"name":"Nudge +5s", "mods":["CONTROL"]}
+                {"name":"Audio", "mods":["COMMAND"]}
             ],
             "NUMPAD_PLUS" : [
                 {"name":"Move Playhead To Next Sequence", "mods":[]},
@@ -222,108 +145,63 @@
                 {"name":"Zoom in vertically", "mods":["COMMAND", "SHIFT"]}
             ],
             "NUMPAD_SEVEN" : [
-                {"name":"Fade", "mods":["COMMAND"]},
-                {"name":"LOOP cue ON", "mods":["CONTROL"]}
+                {"name":"Fade", "mods":["COMMAND"]}
             ],
             "NUMPAD_SIX" : [
-                {"name":"Light", "mods":["COMMAND"]},
-                {"name":"Post Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait +1s", "mods":["CONTROL"]}
+                {"name":"Light", "mods":["COMMAND"]}
             ],
             "NUMPAD_THREE" : [
-                {"name":"Duration -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration -1s", "mods":["CONTROL"]},
                 {"name":"Video", "mods":["COMMAND"]}
             ],
             "NUMPAD_TWO" : [
-                {"name":"Mic", "mods":["COMMAND"]},
-                {"name":"Pre Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait +1s", "mods":["CONTROL"]}
+                {"name":"Mic", "mods":["COMMAND"]}
             ],
             "NUMPAD_ZERO" : [
-                {"name":"Group", "mods":["COMMAND"]},
-                {"name":"Level -inf", "mods":["CONTROL"]}
+                {"name":"Group", "mods":["COMMAND"]}
             ],
             "O" : [
-                {"name":"Clear notes formatting", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Create 10s fade out", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s fade out", "mods":["ALT"]},
                 {"name":"Edit Cue Notes", "mods":[]},
                 {"name":"Open Workspace", "mods":["COMMAND"]},
                 {"name":"Override Controls", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Set cue color orange", "mods":["CONTROL"]},
                 {"name":"Set end time in waveform view", "mods":["SHIFT"]}
             ],
             "ONE" : [
-                {"name":"Audio", "mods":["COMMAND"]},
-                {"name":"Pre Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait -1s", "mods":["CONTROL"]}
+                {"name":"Audio", "mods":["COMMAND"]}
             ],
             "P" : [
-                {"name":"Open Light Patch", "mods":["ALT", "CONTROL", "SHIFT"]},
                 {"name":"Pause/Resume Selected Cues", "mods":[]},
-                {"name":"SOLO in pause", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Set cue color purple", "mods":["CONTROL"]},
                 {"name":"Turn on/off live fade preview", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "PERCENT" : [
-                {"name":"Post Wait -5s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "PERIOD" : [
-                {"name":"Nudge +5s", "mods":["CONTROL"]}
             ],
             "PLUS" : [
                 {"name":"Move Playhead To Next Sequence", "mods":[]}
             ],
             "Q" : [
                 {"name":"Edit Cue Name", "mods":[]},
-                {"name":"Open QLab Preferences", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Quit QLab", "mods":["COMMAND"]},
-                {"name":"Set group prefix depending on childen", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Quit QLab", "mods":["COMMAND"]}
             ],
             "R" : [
-                {"name":"Open Record Cue Sequence", "mods":["ALT", "CONTROL", "SHIFT"]},
                 {"name":"Renumber selected cues", "mods":["COMMAND"]},
-                {"name":"Renumber selected with prefix", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Revert Fade Action", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Set cue color red", "mods":["CONTROL"]},
-                {"name":"Set/Change Rate", "mods":[]}
+                {"name":"Revert Fade Action", "mods":["COMMAND", "SHIFT"]}
             ],
             "RIGHT_ARROW" : [
                 {"name":"Nudge +0.01 in Timeline view", "mods":["ALT", "SHIFT"]},
                 {"name":"Nudge +0.1 in Timeline view", "mods":["ALT"]},
                 {"name":"Select Next Tab", "mods":["COMMAND"]}
             ],
-            "RIGHT_BRACE" : [
-                {"name":"Bump +5 dB", "mods":["CONTROL", "SHIFT"]}
-            ],
             "RIGHT_BRACKET" : [
-                {"name":"Bump +1 dB", "mods":["CONTROL"]},
                 {"name":"Enter Show Mode", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Resume All", "mods":[]}
             ],
             "S" : [
-                {"name":"Make start cue and cut", "mods":["ALT"]},
-                {"name":"Make start cue in Main Cue List", "mods":["ALT", "SHIFT"]},
                 {"name":"Panic Selected Cues", "mods":[]},
                 {"name":"Save As", "mods":["COMMAND", "SHIFT"]},
-                {"name":"Save", "mods":["COMMAND"]},
-                {"name":"View 'Scripts'", "mods":["SHIFT"]}
-            ],
-            "SEMICOLON" : [
-                {"name":"Nudge -10s", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Save", "mods":["COMMAND"]}
             ],
             "SEVEN" : [
-                {"name":"Fade", "mods":["COMMAND"]},
-                {"name":"LOOP cue ON", "mods":["CONTROL"]}
+                {"name":"Fade", "mods":["COMMAND"]}
             ],
             "SIX" : [
-                {"name":"Light", "mods":["COMMAND"]},
-                {"name":"Post Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait +1s", "mods":["CONTROL"]}
-            ],
-            "SLASH" : [
-                {"name":"LOOP cue OFF", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Light", "mods":["COMMAND"]}
             ],
             "SPACE" : [
                 {"name":"GO", "mods":[]}
@@ -331,313 +209,91 @@
             "T" : [
                 {"name":"Edit Cue Target", "mods":[]},
                 {"name":"Load to time", "mods":["COMMAND"]},
-                {"name":"Reveal target file in Finder", "mods":["ALT", "CONTROL", "SHIFT"]},
                 {"name":"Set Audio Levels From Target", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Show Fonts", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "THREE" : [
-                {"name":"Duration -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration -1s", "mods":["CONTROL"]},
                 {"name":"Video", "mods":["COMMAND"]}
             ],
             "TWO" : [
-                {"name":"Mic", "mods":["COMMAND"]},
-                {"name":"Pre Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait +1s", "mods":["CONTROL"]}
+                {"name":"Mic", "mods":["COMMAND"]}
             ],
             "UP_ARROW" : [
                 {"name":"Move Playhead To Previous Cue", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Select Previous Cue", "mods":["COMMAND"]}
             ],
             "V" : [
-                {"name":"Instant preview", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Paste Cue Properties", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Paste Style", "mods":["ALT", "COMMAND"]},
                 {"name":"Paste and Match Style", "mods":["ALT", "COMMAND", "SHIFT"]},
                 {"name":"Paste", "mods":["COMMAND"]},
-                {"name":"Prepare fade preview", "mods":["CONTROL"]},
                 {"name":"Preview (play action only)", "mods":[]},
                 {"name":"Set Video Geometry From Target", "mods":["ALT", "COMMAND", "CONTROL"]}
             ],
             "W" : [
                 {"name":"Close", "mods":["COMMAND"]},
                 {"name":"Edit Cue Post Wait Duration", "mods":[]},
-                {"name":"Open Launcher Window", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"View 'Work In Progress'", "mods":["SHIFT"]},
                 {"name":"Workspace Status", "mods":["COMMAND", "SHIFT"]}
             ],
             "X" : [
-                {"name":"Cut to 'Cut' cue list", "mods":["ALT"]},
-                {"name":"Cut", "mods":["COMMAND"]},
-                {"name":"Split selected at waveform time", "mods":["ALT", "SHIFT"]},
-                {"name":"View 'Cut'", "mods":["SHIFT"]}
-            ],
-            "Y" : [
-                {"name":"Set cue color yellow", "mods":["CONTROL"]}
+                {"name":"Cut", "mods":["COMMAND"]}
             ],
             "Z" : [
-                {"name":"Clear NOTES", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Redo", "mods":["COMMAND", "SHIFT"]},
                 {"name":"Undo", "mods":["COMMAND"]}
             ],
             "ZERO" : [
-                {"name":"Group", "mods":["COMMAND"]},
-                {"name":"Level -inf", "mods":["CONTROL"]}
+                {"name":"Group", "mods":["COMMAND"]}
             ]
         },
         "Customisable shortcuts" : {
-            "A" : [
-                {"name":"Arm selected", "mods":["CONTROL"]},
-                {"name":"Toggle arming", "mods":[]},
-                {"name":"Unarm selected", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "AMPERSAND" : [
-                {"name":"Post Wait +5s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "B" : [
-                {"name":"Add selected to group if below one", "mods":[]},
-                {"name":"Batch adjust", "mods":["ALT", "CONTROL"]},
-                {"name":"Bundle Workspace", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Create 10s build", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s build", "mods":["ALT"]},
-                {"name":"Set cue color blue", "mods":["CONTROL"]}
-            ],
-            "BACKSPACE" : [
-                {"name":"Revert Dashboard", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Set cue color none", "mods":["CONTROL"]}
-            ],
             "C" : [
-                {"name":"Check for Updates", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Clear Dashboard", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Cycle Cue Continue Mode", "mods":[]},
-                {"name":"Cycle group mode", "mods":["CONTROL"]},
-                {"name":"View 'Macros Cart'", "mods":["SHIFT"]}
-            ],
-            "COLON" : [
-                {"name":"Nudge +10s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "COMMA" : [
-                {"name":"Nudge -5s", "mods":["CONTROL"]}
+                {"name":"Cycle Cue Continue Mode", "mods":[]}
             ],
             "D" : [
-                {"name":"Create 10s dip", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s dip", "mods":["ALT"]},
-                {"name":"Edit Cue Action Duration", "mods":[]},
-                {"name":"Open DMX Status", "mods":["ALT", "CONTROL", "SHIFT"]}
-            ],
-            "DOUBLE_QUOTE" : [
-                {"name":"Pre Wait +5s", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Edit Cue Action Duration", "mods":[]}
             ],
             "E" : [
                 {"name":"Edit Cue Pre Wait Duration", "mods":[]}
             ],
-            "EIGHT" : [
-                {"name":"LOOP last slice ON", "mods":["CONTROL"]}
-            ],
-            "EURO" : [
-                {"name":"Duration +5s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "EXCLAMATION" : [
-                {"name":"Pre Wait -5s", "mods":["CONTROL", "SHIFT"]}
-            ],
             "F" : [
                 {"name":"Toggle Cue Flag", "mods":[]}
             ],
-            "FIVE" : [
-                {"name":"Post Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait -1s", "mods":["CONTROL"]}
-            ],
-            "FOUR" : [
-                {"name":"Duration +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration +1s", "mods":["CONTROL"]}
-            ],
-            "G" : [
-                {"name":"Group selected cues", "mods":[]},
-                {"name":"Set cue color green", "mods":["CONTROL"]}
-            ],
-            "HASH" : [
-                {"name":"Duration -5s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "I" : [
-                {"name":"Create 10s fade in", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s fade in", "mods":["ALT"]}
-            ],
-            "J" : [
-                {"name":"Mark cue(s)/GoTo mark", "mods":[]}
-            ],
-            "K" : [
-                {"name":"Crash fade", "mods":["CONTROL"]},
-                {"name":"Force fade", "mods":[]},
-                {"name":"Force running fades", "mods":["CONTROL", "SHIFT"]}
-            ],
             "L" : [
-                {"name":"Load Selected Cue", "mods":[]},
-                {"name":"Load group to waveform time", "mods":["CONTROL"]},
-                {"name":"Open Light Library", "mods":["ALT", "CONTROL", "SHIFT"]}
-            ],
-            "LEFT_BRACE" : [
-                {"name":"Bump -5 dB", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Load Selected Cue", "mods":[]}
             ],
             "LEFT_BRACKET" : [
-                {"name":"Bump -1 dB", "mods":["CONTROL"]},
                 {"name":"Pause All", "mods":[]}
             ],
-            "LEFT_PARENTHESIS" : [
-                {"name":"LOOP last slice OFF", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "M" : [
-                {"name":"Make MIDI cues", "mods":["ALT", "SHIFT"]},
-                {"name":"Make MONO", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Manage Your Licenses", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"View 'Main Cue List'", "mods":["SHIFT"]}
-            ],
             "N" : [
-                {"name":"Clear nested NUMBER", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Edit Cue Number", "mods":[]}
             ],
-            "NINE" : [
-                {"name":"Level Default", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_COMMA" : [
-                {"name":"Nudge -5s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_EIGHT" : [
-                {"name":"LOOP last slice ON", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_FIVE" : [
-                {"name":"Post Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait -1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_FOUR" : [
-                {"name":"Duration +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration +1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_NINE" : [
-                {"name":"Level Default", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_ONE" : [
-                {"name":"Pre Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait -1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_PERIOD" : [
-                {"name":"Nudge +5s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_SEVEN" : [
-                {"name":"LOOP cue ON", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_SIX" : [
-                {"name":"Post Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait +1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_THREE" : [
-                {"name":"Duration -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration -1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_TWO" : [
-                {"name":"Pre Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait +1s", "mods":["CONTROL"]}
-            ],
-            "NUMPAD_ZERO" : [
-                {"name":"Level -inf", "mods":["CONTROL"]}
-            ],
             "O" : [
-                {"name":"Clear notes formatting", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Create 10s fade out", "mods":["ALT", "SHIFT"]},
-                {"name":"Create 5s fade out", "mods":["ALT"]},
-                {"name":"Edit Cue Notes", "mods":[]},
-                {"name":"Set cue color orange", "mods":["CONTROL"]}
-            ],
-            "ONE" : [
-                {"name":"Pre Wait -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait -1s", "mods":["CONTROL"]}
+                {"name":"Edit Cue Notes", "mods":[]}
             ],
             "P" : [
-                {"name":"Open Light Patch", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Pause/Resume Selected Cues", "mods":[]},
-                {"name":"SOLO in pause", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Set cue color purple", "mods":["CONTROL"]}
-            ],
-            "PERCENT" : [
-                {"name":"Post Wait -5s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "PERIOD" : [
-                {"name":"Nudge +5s", "mods":["CONTROL"]}
+                {"name":"Pause/Resume Selected Cues", "mods":[]}
             ],
             "Q" : [
-                {"name":"Edit Cue Name", "mods":[]},
-                {"name":"Open QLab Preferences", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Set group prefix depending on childen", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "R" : [
-                {"name":"Open Record Cue Sequence", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"Renumber selected with prefix", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Set cue color red", "mods":["CONTROL"]},
-                {"name":"Set/Change Rate", "mods":[]}
-            ],
-            "RIGHT_BRACE" : [
-                {"name":"Bump +5 dB", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Edit Cue Name", "mods":[]}
             ],
             "RIGHT_BRACKET" : [
-                {"name":"Bump +1 dB", "mods":["CONTROL"]},
                 {"name":"Resume All", "mods":[]}
             ],
             "S" : [
-                {"name":"Make start cue and cut", "mods":["ALT"]},
-                {"name":"Make start cue in Main Cue List", "mods":["ALT", "SHIFT"]},
-                {"name":"Panic Selected Cues", "mods":[]},
-                {"name":"View 'Scripts'", "mods":["SHIFT"]}
-            ],
-            "SEMICOLON" : [
-                {"name":"Nudge -10s", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "SEVEN" : [
-                {"name":"LOOP cue ON", "mods":["CONTROL"]}
-            ],
-            "SIX" : [
-                {"name":"Post Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Post Wait +1s", "mods":["CONTROL"]}
-            ],
-            "SLASH" : [
-                {"name":"LOOP cue OFF", "mods":["CONTROL", "SHIFT"]}
+                {"name":"Panic Selected Cues", "mods":[]}
             ],
             "SPACE" : [
                 {"name":"GO", "mods":[]}
             ],
             "T" : [
-                {"name":"Edit Cue Target", "mods":[]},
-                {"name":"Reveal target file in Finder", "mods":["ALT", "CONTROL", "SHIFT"]}
-            ],
-            "THREE" : [
-                {"name":"Duration -0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Duration -1s", "mods":["CONTROL"]}
-            ],
-            "TWO" : [
-                {"name":"Pre Wait +0.1s", "mods":["ALT", "CONTROL"]},
-                {"name":"Pre Wait +1s", "mods":["CONTROL"]}
+                {"name":"Edit Cue Target", "mods":[]}
             ],
             "V" : [
-                {"name":"Instant preview", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Prepare fade preview", "mods":["CONTROL"]},
                 {"name":"Preview (play action only)", "mods":[]}
             ],
             "W" : [
-                {"name":"Edit Cue Post Wait Duration", "mods":[]},
-                {"name":"Open Launcher Window", "mods":["ALT", "CONTROL", "SHIFT"]},
-                {"name":"View 'Work In Progress'", "mods":["SHIFT"]}
-            ],
-            "X" : [
-                {"name":"Cut to 'Cut' cue list", "mods":["ALT"]},
-                {"name":"Split selected at waveform time", "mods":["ALT", "SHIFT"]},
-                {"name":"View 'Cut'", "mods":["SHIFT"]}
-            ],
-            "Y" : [
-                {"name":"Set cue color yellow", "mods":["CONTROL"]}
-            ],
-            "Z" : [
-                {"name":"Clear NOTES", "mods":["CONTROL", "SHIFT"]}
-            ],
-            "ZERO" : [
-                {"name":"Level -inf", "mods":["CONTROL"]}
+                {"name":"Edit Cue Post Wait Duration", "mods":[]}
             ]
         },
         "Fixed shortcuts" : {
