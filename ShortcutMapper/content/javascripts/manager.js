@@ -284,20 +284,20 @@ function ShortcutMapper() {
     };
 
     this._getCurrentOS = function() {
-        var appver = navigator.appVersion.toLowerCase();
-        if (appver.indexOf("win") !== -1) {
-            return "windows";
-        }
-
-        if (appver.indexOf("mac") !== -1) {
-            return "mac";
-        }
-
-        if (appver.indexOf("linux") !== -1) {
-            return "linux";
-        }
-
-        return "windows";
+        // var appver = navigator.appVersion.toLowerCase();
+        // if (appver.indexOf("win") !== -1) {
+        //     return "windows";
+        // }
+        //
+        // if (appver.indexOf("mac") !== -1) {
+        //     return "mac";
+        // }
+        //
+        // if (appver.indexOf("linux") !== -1) {
+        //     return "linux";
+        // }
+    
+        return "mac";
     };
 
 
