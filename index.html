@@ -89,8 +89,11 @@
                     <!-- ANIMATION CONTAINER -->
                     <div class="animation-container animation-fade-up" data-animation-delay="1200">
 
-                        <p>© 2022 Tidy Workspace | Design by <a href="https://facebook.com/BaldrianSector/">Baldrian Sector</a></p>
+                        <p>© <span id="year"></span> Tidy Workspace | Design by <a href="https://facebook.com/BaldrianSector/">Baldrian Sector</a></p>
 
+                        <script>
+                            document.getElementById("year").innerHTML = new Date().getFullYear();
+                        </script>
                     </div>
                     <!-- /ANIMATION CONTAINER -->
 
